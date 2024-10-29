@@ -1,0 +1,100 @@
+SubscriptionName,PolicyName,RetentionDays,RetentionMonths,RunFreq,IdSegment,RecoveryServicesVault,SnapshotRetentionDays,SnapshotType
+Sub-MoogGov-SAP-Prod,VirtualMachine-Tier3,30,1,Daily,vaults,rsv-usagv-adsap-backup,5,null
+Sub-MoogGov-SAP-Prod,VirtualMachine-Tier2,30,6,Daily,vaults,rsv-usagv-adsap-backup,5,null
+Sub-MoogGov-SAP-Prod,VirtualMachine-Tier1,30,13,Daily,vaults,rsv-usagv-adsap-backup,5,null
+Sub-MoogGov-SAP-Prod,VirtualMachine-Tier2,30,6,Daily,vaults,rsv-usagv-adsap-backup-pr,5,null
+Sub-MoogGov-SAP-Prod,VirtualMachine-Tier3,30,1,Daily,vaults,rsv-usagv-adsap-backup-pr,5,null
+Sub-MoogGov-SAP-Prod,VirtualMachine-Tier1,30,13,Daily,vaults,rsv-usagv-adsap-backup-pr,5,null
+Sub-MoogGov-SAP-Prod,VirtualMachine-Tier3,30,1,Daily,vaults,rsv-usagv-adsap-middleware-common,5,null
+Sub-MoogGov-SAP-Prod,VirtualMachine-Tier2,30,6,Daily,vaults,rsv-usagv-adsap-middleware-common,5,null
+Sub-MoogGov-SAP-Prod,VirtualMachine-Tier1,30,13,Daily,vaults,rsv-usagv-adsap-middleware-common,5,null
+Sub-MoogGov-SAP-Prod,VirtualMachine-Tier3,30,1,Daily,vaults,BACKUP-VM-Recovery-Vault,5,null
+Sub-MoogGov-SAP-Prod,VirtualMachine-Tier2,30,6,Daily,vaults,BACKUP-VM-Recovery-Vault,5,null
+Sub-MoogGov-SAP-Prod,VirtualMachine-Tier1,30,13,Daily,vaults,BACKUP-VM-Recovery-Vault,5,null
+Sub-MoogGov-SAP-Prod,VirtualMachine-Tier1,30,13,Daily,vaults,rsv-usaga-adsap-backup,5,null
+Sub-MoogGov-SAP-Prod,VirtualMachine-Tier3,30,1,Daily,vaults,rsv-usaga-adsap-backup,2,null
+Sub-MoogGov-SAP-Prod,VirtualMachine-Tier2,30,6,Daily,vaults,rsv-usaga-adsap-backup,5,null
+Sub-MoogGov-SAP-Prod,VirtualMachine-Tier2,30,6,Daily,vaults,rsv-usaga-adsap-recovery,5,null
+Sub-MoogGov-SAP-Prod,VirtualMachine-Tier1,30,13,Daily,vaults,rsv-usaga-adsap-recovery,5,null
+Sub-MoogGov-SAP-Prod,VirtualMachine-Tier3,30,1,Daily,vaults,rsv-usaga-adsap-recovery,5,null
+Production Moog Portal,VirtualMachine-Tier2,30,6,Daily,vaults,BUP-USAGV-SPFarm,5,null
+Production Moog Portal,VirtualMachine-Tier3,30,1,Daily,vaults,BUP-USAGV-SPFarm,5,null
+Production Moog Portal,VirtualMachine-Tier1,30,13,Daily,vaults,BUP-USAGV-SPFarm,5,null
+Production Moog Portal,VirtualMachine-Tier2,30,6,Daily,vaults,BUP-USAGV-SPFarm-STG,5,null
+Production Moog Portal,VirtualMachine-Tier1,30,13,Daily,vaults,BUP-USAGV-SPFarm-STG,5,null
+Production Moog Portal,VirtualMachine-Tier3,30,1,Daily,vaults,BUP-USAGV-SPFarm-STG,5,null
+Production Moog Portal,VirtualMachine-Tier2,30,6,Daily,vaults,RSV-USAGV-IaaS,5,null
+Production Moog Portal,VirtualMachine-Tier3,30,1,Daily,vaults,RSV-USAGV-IaaS,5,null
+Production Moog Portal,VirtualMachine-Tier1,30,13,Daily,vaults,RSV-USAGV-IaaS,5,null
+Production Moog Portal,VirtualMachine-Tier3,30,1,Daily,vaults,RSV-USAGV-iObeya,5,null
+Production Moog Portal,VirtualMachine-Tier2,30,6,Daily,vaults,RSV-USAGV-iObeya,5,null
+Production Moog Portal,VirtualMachine-Tier1,30,13,Daily,vaults,RSV-USAGV-iObeya,5,null
+Production Moog Portal,VirtualMachine-Tier3,30,1,Daily,vaults,RSV-USAGA-DataServices-Recovery,5,null
+Production Moog Portal,VirtualMachine-Tier2,30,6,Daily,vaults,RSV-USAGA-DataServices-Recovery,5,null
+Production Moog Portal,VirtualMachine-Tier1,30,13,Daily,vaults,RSV-USAGA-DataServices-Recovery,5,null
+Production Moog Portal,VirtualMachine-Tier2,30,6,Daily,vaults,RSV-USAGA-SYSTEMS,5,null
+Production Moog Portal,VirtualMachine-Tier3,30,1,Daily,vaults,RSV-USAGA-SYSTEMS,5,null
+Production Moog Portal,VirtualMachine-Tier1,30,13,Daily,vaults,RSV-USAGA-SYSTEMS,5,null
+Production Moog Portal,VirtualMachine-Tier3,30,1,Daily,vaults,vault149,5,null
+Production Moog Portal,VirtualMachine-Tier2,30,6,Daily,vaults,vault149,5,null
+Production Moog Portal,VirtualMachine-Tier1,30,13,Daily,vaults,vault149,5,null
+Sub-MoogGov-CollaborationMessaging-NonProd,VirtualMachine-Tier2,30,6,Daily,vaults,RSV-USAGV-CMS-Backup-NP,5,null
+Sub-MoogGov-CollaborationMessaging-NonProd,VirtualMachine-Tier1,30,13,Daily,vaults,RSV-USAGV-CMS-Backup-NP,5,null
+Sub-MoogGov-CollaborationMessaging-NonProd,VirtualMachine-Tier3,30,1,Daily,vaults,RSV-USAGV-CMS-Backup-NP,2,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier3,30,1,Daily,vaults,rsv-usagv-adsap-3-backup-dev,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier2,30,6,Daily,vaults,rsv-usagv-adsap-3-backup-dev,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier1,30,13,Daily,vaults,rsv-usagv-adsap-3-backup-dev,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier2,30,6,Daily,vaults,rsv-usagv-adsap-3-backup-qa,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier1,30,13,Daily,vaults,rsv-usagv-adsap-3-backup-qa,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier3,30,13,Daily,vaults,rsv-usagv-adsap-3-backup-qa,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier3,30,1,Daily,vaults,rsv-usagv-adsap-4-backup-qa,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier1,30,13,Daily,vaults,rsv-usagv-adsap-4-backup-qa,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier2,30,6,Daily,vaults,rsv-usagv-adsap-4-backup-qa,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier2,30,6,Daily,vaults,rsv-usagv-adsap-backup-dev,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier1,30,13,Daily,vaults,rsv-usagv-adsap-backup-dev,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier3,30,1,Daily,vaults,rsv-usagv-adsap-backup-dev,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier1,30,13,Daily,vaults,rsv-usagv-adsap-backup-np,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier3,30,1,Daily,vaults,rsv-usagv-adsap-backup-np,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier2,30,6,Daily,vaults,rsv-usagv-adsap-backup-np,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier2,30,6,Daily,vaults,rsv-usagv-adsap-backup-qa,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier1,30,13,Daily,vaults,rsv-usagv-adsap-backup-qa,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier3,30,1,Daily,vaults,rsv-usagv-adsap-backup-qa,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier2,30,6,Daily,vaults,rsv-usagv-adsap-backup-sb,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier3,30,1,Daily,vaults,rsv-usagv-adsap-backup-sb,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier1,30,13,Daily,vaults,rsv-usagv-adsap-backup-sb,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier2,30,6,Daily,vaults,rsv-usagv-adsap-backup-trn,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier1,30,13,Daily,vaults,rsv-usagv-adsap-backup-trn,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier3,30,1,Daily,vaults,rsv-usagv-adsap-backup-trn,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier1,30,13,Daily,vaults,rsv-usaga-adsap-backup-dev,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier2,30,6,Daily,vaults,rsv-usaga-adsap-backup-dev,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier3,30,1,Daily,vaults,rsv-usaga-adsap-backup-dev,2,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier1,30,13,Daily,vaults,rsv-usaga-adsap-backup-np,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier3,30,1,Daily,vaults,rsv-usaga-adsap-backup-np,5,null
+Sub-MoogGov-SAP-Dev,VirtualMachine-Tier2,30,6,Daily,vaults,rsv-usaga-adsap-backup-np,5,null
+Sub-MoogGov-Core-Security,VirtualMachine-Tier2,30,6,Daily,vaults,RSV-USAGV-Security-Backup,5,null
+Sub-MoogGov-Core-Security,VirtualMachine-Tier1,30,23,Daily,vaults,RSV-USAGV-Security-Backup,5,null
+Sub-MoogGov-Core-Security,VirtualMachine-Tier3,14,1,Daily,vaults,RSV-USAGV-Security-Backup,2,null
+Sub-MoogGov-Core-Identity,VirtualMachine-Tier2,30,6,Daily,vaults,RSV-USAGV-Identity-Backup,5,null
+Sub-MoogGov-Core-Identity,VirtualMachine-Tier1,30,13,Daily,vaults,RSV-USAGV-Identity-Backup,5,null
+Sub-MoogGov-Core-Identity,VirtualMachine-Tier3,30,1,Daily,vaults,RSV-USAGV-Identity-Backup,2,null
+Sub-MoogGov-Core-Identity,VirtualMachine-Tier2,30,6,Daily,vaults,RSV-USAGA-Identity-Backup,5,null
+Sub-MoogGov-Core-Identity,VirtualMachine-Tier1,30,13,Daily,vaults,RSV-USAGA-Identity-Backup,5,null
+Sub-MoogGov-Core-Identity,VirtualMachine-Tier3,30,1,Daily,vaults,RSV-USAGA-Identity-Backup,2,null
+Sub-MoogGov-Core-Identity,VirtualMachine-Tier2,30,6,Daily,vaults,RSV-USAGT-Identity-Backup,5,null
+Sub-MoogGov-Core-Identity,VirtualMachine-Tier1,30,13,Daily,vaults,RSV-USAGT-Identity-Backup,5,null
+Sub-MoogGov-Core-Identity,VirtualMachine-Tier3,30,1,Daily,vaults,RSV-USAGT-Identity-Backup,2,null
+Sub-MoogGov-AG-AOS-Prod,VirtualMachine-Tier3,30,1,Daily,vaults,RSV-USAGV-AOS-Backup,2,null
+Sub-MoogGov-AG-AOS-Prod,VirtualMachine-Tier1,30,13,Daily,vaults,RSV-USAGV-AOS-Backup,5,null
+Sub-MoogGov-AG-AOS-Prod,VirtualMachine-Tier2,30,6,Daily,vaults,RSV-USAGV-AOS-Backup,5,null
+Sub-MoogGov-Corp-Analytics-NonProd,VirtualMachine-Tier2,30,6,Daily,vaults,RSV-USAGV-Analytics-Backup-NP,5,null
+Sub-MoogGov-Corp-Analytics-NonProd,VirtualMachine-Tier1,30,13,Daily,vaults,RSV-USAGV-Analytics-Backup-NP,5,null
+Sub-MoogGov-Corp-Analytics-NonProd,VirtualMachine-Tier3,30,1,Daily,vaults,RSV-USAGV-Analytics-Backup-NP,2,null
+Sub-MoogGov-EngineeringApplications-Prod,VirtualMachine-Tier3,30,1,Daily,vaults,RSV-USAGV-EngApps-Backup,2,null
+Sub-MoogGov-EngineeringApplications-Prod,VirtualMachine-Tier1,30,13,Daily,vaults,RSV-USAGV-EngApps-Backup,5,null
+Sub-MoogGov-EngineeringApplications-Prod,VirtualMachine-Tier2,30,6,Daily,vaults,RSV-USAGV-EngApps-Backup,5,null
+Sub-MoogGov-EngineeringApplications-NonProd,VirtualMachine-Tier1,30,13,Daily,vaults,RSV-USAGV-EngApps-Backup-NP,5,null
+Sub-MoogGov-EngineeringApplications-NonProd,VirtualMachine-Tier3,30,1,Daily,vaults,RSV-USAGV-EngApps-Backup-NP,2,null
+Sub-MoogGov-EngineeringApplications-NonProd,VirtualMachine-Tier2,30,6,Daily,vaults,RSV-USAGV-EngApps-Backup-NP,5,null
+Sub-MoogGov-Corp-Analytics-Prod,VirtualMachine-Tier1,30,13,Daily,vaults,RSV-USAGV-Analytics-Backup,5,null
+Sub-MoogGov-Corp-Analytics-Prod,VirtualMachine-Tier2,30,6,Daily,vaults,RSV-USAGV-Analytics-Backup,5,null
+Sub-MoogGov-Corp-Analytics-Prod,VirtualMachine-Tier3,30,1,Daily,vaults,RSV-USAGV-Analytics-Backup,2,null
