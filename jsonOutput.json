@@ -1,0 +1,93 @@
+{
+  "eTag": null,
+  "id": "/subscriptions/bccb47eb-ee55-43fd-a6b1-990fd8a67d6b/resourceGroups/RG-Moog-AmerGov-SPFarm-Stg/providers/Microsoft.RecoveryServices/vaults/BUP-USAGV-SPFarm-STG/backupPolicies/SQLVirtualMachine-Tier2",
+  "location": null,
+  "name": "SQLVirtualMachine-Tier2",
+  "properties": {
+    "backupManagementType": "AzureWorkload",
+    "makePolicyConsistent": null,
+    "protectedItemsCount": 0,
+    "resourceGuardOperationRequests": null,
+    "settings": {
+      "isCompression": true,
+      "issqlcompression": true,
+      "timeZone": "UTC"
+    },
+    "subProtectionPolicy": [
+      {
+        "policyType": "Full",
+        "retentionPolicy": {
+          "dailySchedule": {
+            "retentionDuration": {
+              "count": 30,
+              "durationType": "Days"
+            },
+            "retentionTimes": [
+              "2023-06-23T01:00:00+00:00"
+            ]
+          },
+          "monthlySchedule": {
+            "retentionDuration": {
+              "count": 6,
+              "durationType": "Months"
+            },
+            "retentionScheduleDaily": null,
+            "retentionScheduleFormatType": "Weekly",
+            "retentionScheduleWeekly": {
+              "daysOfTheWeek": [
+                "Sunday"
+              ],
+              "weeksOfTheMonth": [
+                "First"
+              ]
+            },
+            "retentionTimes": [
+              "2023-06-23T01:00:00+00:00"
+            ]
+          },
+          "retentionPolicyType": "LongTermRetentionPolicy",
+          "weeklySchedule": null,
+          "yearlySchedule": null
+        },
+        "schedulePolicy": {
+          "hourlySchedule": null,
+          "schedulePolicyType": "SimpleSchedulePolicy",
+          "scheduleRunDays": null,
+          "scheduleRunFrequency": "Daily",
+          "scheduleRunTimes": [
+            "2023-06-23T01:00:00+00:00"
+          ],
+          "scheduleWeeklyFrequency": 0
+        },
+        "snapshotBackupAdditionalDetails": null,
+        "tieringPolicy": {
+          "ArchivedRP": {
+            "duration": 0,
+            "durationType": "Invalid",
+            "tieringMode": "DoNotTier"
+          }
+        }
+      },
+      {
+        "policyType": "Log",
+        "retentionPolicy": {
+          "retentionDuration": {
+            "count": 30,
+            "durationType": "Days"
+          },
+          "retentionPolicyType": "SimpleRetentionPolicy"
+        },
+        "schedulePolicy": {
+          "scheduleFrequencyInMins": 30,
+          "schedulePolicyType": "LogSchedulePolicy"
+        },
+        "snapshotBackupAdditionalDetails": null,
+        "tieringPolicy": null
+      }
+    ],
+    "workLoadType": "SQLDataBase"
+  },
+  "resourceGroup": "RG-Moog-AmerGov-SPFarm-Stg",
+  "tags": null,
+  "type": "Microsoft.RecoveryServices/vaults/backupPolicies"
+}

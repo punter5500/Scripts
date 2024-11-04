@@ -3,13 +3,14 @@
 # Login
 az cloud set --name AzureUSGovernment
 #az cloud set --name AzureCloud
-az login --use-device-code
+#az login --use-device-code
 
 # Get the list of all subscriptions
 subscriptions=$(az account list --output json)
 
 # Create the CSV file and add the header
-echo "SubscriptionName,PolicyName,RetentionDays,RetentionWeeks,RetentionMonths,RetentionYears,RunFreq,IdSegment,RecoveryServicesVault,SnapshotRetentionDays,SnapshotType,StorageReplicationType,CrossRegionRestore" > policy.csv
+echo "SubscriptionName,PolicyName,RetentionDays,RetentionWeeks,RetentionMonths,RetentionYears,RunFreq,IdSegment,RecoveryServicesVault,SnapshotRetentionDays,SnapshotType" > policy.csv
+# ,StorageReplicationType,CrossRegionRestore
 
 # Iterate over each subscription
 for sub in $(echo "${subscriptions}" | jq -r '.[] | @base64'); do
@@ -45,10 +46,10 @@ for sub in $(echo "${subscriptions}" | jq -r '.[] | @base64'); do
             vaultExists=$(az backup vault show --resource-group "$resourceGroup" --name "$vault" --output json 2>/dev/null)
             if [ -n "$vaultExists" ]; then
                 # Get the storage replication type
-                storageReplicationType=$(az backup vault show --resource-group "$resourceGroup" --name "$vault" --query "properties.storageType" --output tsv)
+                #storageReplicationType=$(az backup vault show --resource-group "$resourceGroup" --name "$vault" --query "properties.storageType" --output tsv)
 
                 # Get the status of Cross Region Restore
-                crossRegionRestore=$(az backup vault show --resource-group "$resourceGroup" --name "$vault" --query "properties.crossRegionRestore" --output tsv)
+                #crossRegionRestore=$(az backup vault show --resource-group "$resourceGroup" --name "$vault" --query "properties.crossRegionRestore" --output tsv)
 
                 # Get the list of all policies in the vault
                 policies=$(az backup policy list --resource-group "$resourceGroup" --vault-name "$vault" --output json)
@@ -59,7 +60,7 @@ for sub in $(echo "${subscriptions}" | jq -r '.[] | @base64'); do
                     policyName=$(_jq_policy '.name')
 
                     # Filter policies that contain "VirtualMachine"
-                    if [[ $policyName == VirtualMachine* ]]; then
+                    if [[ $policyName == VirtualMachine-Tier* ]]; then
                         # Get the backup policy details
                         policyDetails=$(az backup policy show --resource-group "$resourceGroup" --vault-name "$vault" --name "$policyName" --query "{PolicyName: name, RetentionDays: properties.retentionPolicy.dailySchedule.retentionDuration.count, RetentionWeeks: properties.retentionPolicy.weeklySchedule.retentionDuration.count, RetentionMonths: properties.retentionPolicy.monthlySchedule.retentionDuration.count, RetentionYears: properties.retentionPolicy.yearlySchedule.retentionDuration.count, RunFreq: properties.schedulePolicy.scheduleRunFrequency, Id: id, SnapshotRetentionDays: properties.instantRpRetentionRangeInDays, SnapshotType: properties.snapshotType}" --output json 2>/dev/null)
                         echo "Policy Details for $policyName: $policyDetails"  # Debugging output
@@ -74,10 +75,11 @@ for sub in $(echo "${subscriptions}" | jq -r '.[] | @base64'); do
                             runFreq=$(echo "$policyJson" | jq -r '.RunFreq')
                             idSegment=$(echo "$policyJson" | jq -r '.Id' | awk -F'/' '{print $8}')
                             snapshotRetentionDays=$(echo "$policyJson" | jq -r '.SnapshotRetentionDays')
-                            snapshotType=$(echo "$policyJson" | jq -r '.SnapshotType')
+                            #snapshotType=$(echo "$policyJson" | jq -r '.SnapshotType')
 
                             # Append the data to the CSV file
-                            echo "$subscriptionName,$policyName,$retentionDays,$retentionWeeks,$retentionMonths,$retentionYears,$runFreq,$idSegment,$vault,$snapshotRetentionDays,$snapshotType,$storageReplicationType,$crossRegionRestore" >> policy.csv
+                            echo "$subscriptionName,$policyName,$retentionDays,$retentionWeeks,$retentionMonths,$retentionYears,$runFreq,$idSegment,$vault,$snapshotRetentionDays,$snapshotType" >> policy.csv
+                            #,$storageReplicationType,$crossRegionRestore
 
                             # Output the resource group and vault name
                             echo "Subscription: $subscriptionName"
