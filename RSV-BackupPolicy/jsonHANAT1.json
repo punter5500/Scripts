@@ -1,16 +1,16 @@
 {
   "eTag": null,
-  "id": "/subscriptions/bccb47eb-ee55-43fd-a6b1-990fd8a67d6b/resourceGroups/RG-Moog-AmerGov-SPFarm-Stg/providers/Microsoft.RecoveryServices/vaults/BUP-USAGV-SPFarm-STG/backupPolicies/SQLVirtualMachine-Tier2",
+  "id": "/subscriptions/7397ef6e-ecb4-4f54-8f62-8da2f3352ed1/resourceGroups/RG-GBAZ1-Analytics-Backup/providers/Microsoft.RecoveryServices/vaults/RSV-GBAZ1-Analytics-Backup/backupPolicies/HANADB-Tier1",
   "location": null,
-  "name": "SQLVirtualMachine-Tier2",
+  "name": "HANADB-Tier1",
   "properties": {
     "backupManagementType": "AzureWorkload",
     "makePolicyConsistent": null,
     "protectedItemsCount": 0,
     "resourceGuardOperationRequests": null,
     "settings": {
-      "isCompression": true,
-      "issqlcompression": true,
+      "isCompression": false,
+      "issqlcompression": false,
       "timeZone": "UTC"
     },
     "subProtectionPolicy": [
@@ -19,16 +19,16 @@
         "retentionPolicy": {
           "dailySchedule": {
             "retentionDuration": {
-              "count": 30,
+              "count": 60,
               "durationType": "Days"
             },
             "retentionTimes": [
-              "2023-06-23T01:00:00+00:00"
+              "2024-02-23T01:00:00+00:00"
             ]
           },
           "monthlySchedule": {
             "retentionDuration": {
-              "count": 6,
+              "count": 13,
               "durationType": "Months"
             },
             "retentionScheduleDaily": null,
@@ -42,12 +42,33 @@
               ]
             },
             "retentionTimes": [
-              "2023-06-23T01:00:00+00:00"
+              "2024-02-23T01:00:00+00:00"
             ]
           },
           "retentionPolicyType": "LongTermRetentionPolicy",
           "weeklySchedule": null,
-          "yearlySchedule": null
+          "yearlySchedule": {
+            "monthsOfYear": [
+              "January"
+            ],
+            "retentionDuration": {
+              "count": 7,
+              "durationType": "Years"
+            },
+            "retentionScheduleDaily": null,
+            "retentionScheduleFormatType": "Weekly",
+            "retentionScheduleWeekly": {
+              "daysOfTheWeek": [
+                "Sunday"
+              ],
+              "weeksOfTheMonth": [
+                "First"
+              ]
+            },
+            "retentionTimes": [
+              "2024-02-23T01:00:00+00:00"
+            ]
+          }
         },
         "schedulePolicy": {
           "hourlySchedule": null,
@@ -55,7 +76,7 @@
           "scheduleRunDays": null,
           "scheduleRunFrequency": "Daily",
           "scheduleRunTimes": [
-            "2023-06-23T01:00:00+00:00"
+            "2024-02-23T01:00:00+00:00"
           ],
           "scheduleWeeklyFrequency": 0
         },
@@ -78,16 +99,16 @@
           "retentionPolicyType": "SimpleRetentionPolicy"
         },
         "schedulePolicy": {
-          "scheduleFrequencyInMins": 30,
+          "scheduleFrequencyInMins": 15,
           "schedulePolicyType": "LogSchedulePolicy"
         },
         "snapshotBackupAdditionalDetails": null,
         "tieringPolicy": null
       }
     ],
-    "workLoadType": "SQLDataBase"
+    "workLoadType": "SAPHanaDatabase"
   },
-  "resourceGroup": "RG-Moog-AmerGov-SPFarm-Stg",
+  "resourceGroup": "RG-GBAZ1-Analytics-Backup",
   "tags": null,
   "type": "Microsoft.RecoveryServices/vaults/backupPolicies"
 }

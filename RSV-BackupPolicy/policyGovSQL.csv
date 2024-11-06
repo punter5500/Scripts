@@ -1,0 +1,94 @@
+SubscriptionName,PolicyName,RetentionDays,RetentionMonths,SchedulePolicyType,ScheduleRunFrequency,WorkloadType,ResourceGroup,RecoveryServicesVault
+Sub-MoogGov-SAP-Prod,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup,rsv-usagv-adsap-backup
+Sub-MoogGov-SAP-Prod,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup,rsv-usagv-adsap-backup
+Sub-MoogGov-SAP-Prod,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup,rsv-usagv-adsap-backup
+Sub-MoogGov-SAP-Prod,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup-Prep,rsv-usagv-adsap-backup-pr
+Sub-MoogGov-SAP-Prod,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup-Prep,rsv-usagv-adsap-backup-pr
+Sub-MoogGov-SAP-Prod,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup-Prep,rsv-usagv-adsap-backup-pr
+Sub-MoogGov-SAP-Prod,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Middleware-Common,rsv-usagv-adsap-middleware-common
+Sub-MoogGov-SAP-Prod,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Middleware-Common,rsv-usagv-adsap-middleware-common
+Sub-MoogGov-SAP-Prod,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Middleware-Common,rsv-usagv-adsap-middleware-common
+Sub-MoogGov-SAP-Prod,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-MGMT-VM-Backup,BACKUP-VM-Recovery-Vault
+Sub-MoogGov-SAP-Prod,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-MGMT-VM-Backup,BACKUP-VM-Recovery-Vault
+Sub-MoogGov-SAP-Prod,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-MGMT-VM-Backup,BACKUP-VM-Recovery-Vault
+Sub-MoogGov-SAP-Prod,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGA-ADSAP-Backup,rsv-usaga-adsap-backup
+Sub-MoogGov-SAP-Prod,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGA-ADSAP-Backup,rsv-usaga-adsap-backup
+Sub-MoogGov-SAP-Prod,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGA-ADSAP-Backup,rsv-usaga-adsap-backup
+Sub-MoogGov-SAP-Prod,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGA-ADSAP-Recovery,rsv-usaga-adsap-recovery
+Sub-MoogGov-SAP-Prod,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGA-ADSAP-Recovery,rsv-usaga-adsap-recovery
+Sub-MoogGov-SAP-Prod,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGA-ADSAP-Recovery,rsv-usaga-adsap-recovery
+Production Moog Portal,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-Moog-AmerGov-SPFarm,BUP-USAGV-SPFarm
+Production Moog Portal,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-Moog-AmerGov-SPFarm,BUP-USAGV-SPFarm
+Production Moog Portal,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-Moog-AmerGov-SPFarm,BUP-USAGV-SPFarm
+Production Moog Portal,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-Moog-AmerGov-SPFarm-Stg,BUP-USAGV-SPFarm-STG
+Production Moog Portal,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-Moog-AmerGov-SPFarm-Stg,BUP-USAGV-SPFarm-STG
+Production Moog Portal,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-Moog-AmerGov-SPFarm-Stg,BUP-USAGV-SPFarm-STG
+Production Moog Portal,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-Moog-AmerGov-System,RSV-USAGV-IaaS
+Production Moog Portal,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-Moog-AmerGov-System,RSV-USAGV-IaaS
+Production Moog Portal,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-Moog-AmerGov-System,RSV-USAGV-IaaS
+Production Moog Portal,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-Moog-AmerGov-DistApps-iObeya,RSV-USAGV-iObeya
+Production Moog Portal,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-Moog-AmerGov-DistApps-iObeya,RSV-USAGV-iObeya
+Production Moog Portal,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-Moog-AmerGov-DistApps-iObeya,RSV-USAGV-iObeya
+Production Moog Portal,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGA-DataServices-Recovery,RSV-USAGA-DataServices-Recovery
+Production Moog Portal,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGA-DataServices-Recovery,RSV-USAGA-DataServices-Recovery
+Production Moog Portal,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGA-DataServices-Recovery,RSV-USAGA-DataServices-Recovery
+Production Moog Portal,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGA-Systems,RSV-USAGA-SYSTEMS
+Production Moog Portal,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGA-Systems,RSV-USAGA-SYSTEMS
+Production Moog Portal,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGA-Systems,RSV-USAGA-SYSTEMS
+Production Moog Portal,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGT-Systems,vault149
+Production Moog Portal,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGT-Systems,vault149
+Production Moog Portal,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGT-Systems,vault149
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-3-Backup-Dev,rsv-usagv-adsap-3-backup-dev
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-3-Backup-Dev,rsv-usagv-adsap-3-backup-dev
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-3-Backup-Dev,rsv-usagv-adsap-3-backup-dev
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-3-Backup-QA,rsv-usagv-adsap-3-backup-qa
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-3-Backup-QA,rsv-usagv-adsap-3-backup-qa
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-3-Backup-QA,rsv-usagv-adsap-3-backup-qa
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-4-Backup-QA,rsv-usagv-adsap-4-backup-qa
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-4-Backup-QA,rsv-usagv-adsap-4-backup-qa
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-4-Backup-QA,rsv-usagv-adsap-4-backup-qa
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup-Dev,rsv-usagv-adsap-backup-dev
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup-Dev,rsv-usagv-adsap-backup-dev
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup-Dev,rsv-usagv-adsap-backup-dev
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup-NP,rsv-usagv-adsap-backup-np
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup-NP,rsv-usagv-adsap-backup-np
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup-NP,rsv-usagv-adsap-backup-np
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup-QA,rsv-usagv-adsap-backup-qa
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup-QA,rsv-usagv-adsap-backup-qa
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup-QA,rsv-usagv-adsap-backup-qa
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup-SB,rsv-usagv-adsap-backup-sb
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup-SB,rsv-usagv-adsap-backup-sb
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup-SB,rsv-usagv-adsap-backup-sb
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup-Trn,rsv-usagv-adsap-backup-trn
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup-Trn,rsv-usagv-adsap-backup-trn
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-ADSAP-Backup-Trn,rsv-usagv-adsap-backup-trn
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,rg-usaga-adsap-backup-dev,rsv-usaga-adsap-backup-dev
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,rg-usaga-adsap-backup-dev,rsv-usaga-adsap-backup-dev
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,rg-usaga-adsap-backup-dev,rsv-usaga-adsap-backup-dev
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGA-ADSAP-Backup-NP,rsv-usaga-adsap-backup-np
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGA-ADSAP-Backup-NP,rsv-usaga-adsap-backup-np
+Sub-MoogGov-SAP-Dev,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGA-ADSAP-Backup-NP,rsv-usaga-adsap-backup-np
+Sub-MoogGov-Core-Identity,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-Identity-Backup,RSV-USAGV-Identity-Backup
+Sub-MoogGov-Core-Identity,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-Identity-Backup,RSV-USAGV-Identity-Backup
+Sub-MoogGov-Core-Identity,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-Identity-Backup,RSV-USAGV-Identity-Backup
+Sub-MoogGov-Core-Identity,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGA-Identity-Backup,RSV-USAGA-Identity-Backup
+Sub-MoogGov-Core-Identity,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGA-Identity-Backup,RSV-USAGA-Identity-Backup
+Sub-MoogGov-Core-Identity,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGA-Identity-Backup,RSV-USAGA-Identity-Backup
+Sub-MoogGov-Core-Identity,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGT-Identity-Backup,RSV-USAGT-Identity-Backup
+Sub-MoogGov-Core-Identity,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGT-Identity-Backup,RSV-USAGT-Identity-Backup
+Sub-MoogGov-Core-Identity,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGT-Identity-Backup,RSV-USAGT-Identity-Backup
+Sub-MoogGov-AG-AOS-Prod,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-AOS-Backup,RSV-USAGV-AOS-Backup
+Sub-MoogGov-AG-AOS-Prod,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-AOS-Backup,RSV-USAGV-AOS-Backup
+Sub-MoogGov-AG-AOS-Prod,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-AOS-Backup,RSV-USAGV-AOS-Backup
+Sub-MoogGov-Corp-Analytics-NonProd,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-Analytics-Backup-NP,RSV-USAGV-Analytics-Backup-NP
+Sub-MoogGov-Corp-Analytics-NonProd,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-Analytics-Backup-NP,RSV-USAGV-Analytics-Backup-NP
+Sub-MoogGov-Corp-Analytics-NonProd,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-Analytics-Backup-NP,RSV-USAGV-Analytics-Backup-NP
+Sub-MoogGov-EngineeringApplications-Prod,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-EngApps-Backup,RSV-USAGV-EngApps-Backup
+Sub-MoogGov-EngineeringApplications-Prod,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-EngApps-Backup,RSV-USAGV-EngApps-Backup
+Sub-MoogGov-EngineeringApplications-Prod,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-EngApps-Backup,RSV-USAGV-EngApps-Backup
+Sub-MoogGov-EngineeringApplications-NonProd,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-EngApps-Backup-NP,RSV-USAGV-EngApps-Backup-NP
+Sub-MoogGov-EngineeringApplications-NonProd,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-EngApps-Backup-NP,RSV-USAGV-EngApps-Backup-NP
+Sub-MoogGov-EngineeringApplications-NonProd,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-EngApps-Backup-NP,RSV-USAGV-EngApps-Backup-NP
+Sub-MoogGov-Corp-Analytics-Prod,SQLVirtualMachine-Tier1,30,13,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-Analytics-Backup,RSV-USAGV-Analytics-Backup
+Sub-MoogGov-Corp-Analytics-Prod,SQLVirtualMachine-Tier3,30,1,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-Analytics-Backup,RSV-USAGV-Analytics-Backup
+Sub-MoogGov-Corp-Analytics-Prod,SQLVirtualMachine-Tier2,30,6,SimpleSchedulePolicy,Daily,SQLDataBase,RG-USAGV-Analytics-Backup,RSV-USAGV-Analytics-Backup
