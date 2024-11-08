@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # Login
-#az cloud set --name AzureUSGovernment
-az cloud set --name AzureCloud
+az cloud set --name AzureUSGovernment
+#az cloud set --name AzureCloud
 #az login --use-device-code
 
 # Get the list of all subscriptions
 subscriptions=$(az account list --output json)
 
 # Create the CSV file and add the header
-echo "SubscriptionName,PolicyName,RetentionDays,RetentionMonths,SchedulePolicyType,ScheduleRunFrequency,WorkloadType,ResourceGroup,RecoveryServicesVault" > policy.csv
+echo "SubscriptionName,PolicyName,RetentionDays,RetentionMonths,RetentionYears,SchedulePolicyType,ScheduleRunFrequency,WorkloadType,ResourceGroup,RecoveryServicesVault" > policy.csv
 
 # Iterate over each subscription
 for sub in $(echo "${subscriptions}" | jq -r '.[] | @base64'); do
@@ -53,13 +53,14 @@ for sub in $(echo "${subscriptions}" | jq -r '.[] | @base64'); do
              policyName=$(_jq_policy '.name')
              if [[ $policyName == SQLVirtualMachine-Tier* ]]; then
                # Get the backup policy details
-               policyDetails=$(az backup policy show --resource-group "$resourceGroup" --vault-name "$vault" --name "$policyName" --query "{PolicyName: name, RetentionDays: properties.subProtectionPolicy[?policyType=='Full'].retentionPolicy.dailySchedule.retentionDuration.count | [0], RetentionMonths: properties.subProtectionPolicy[?policyType=='Full'].retentionPolicy.monthlySchedule.retentionDuration.count | [0], SchedulePolicyType: properties.subProtectionPolicy[?policyType=='Full'].schedulePolicy.schedulePolicyType, ScheduleRunFrequency: properties.subProtectionPolicy[?policyType=='Full'].schedulePolicy.scheduleRunFrequency, WorkloadType: properties.workLoadType, ResourceGroup: resourceGroup}" --output json 2>/dev/null)
+               policyDetails=$(az backup policy show --resource-group "$resourceGroup" --vault-name "$vault" --name "$policyName" --query "{PolicyName: name, RetentionDays: properties.subProtectionPolicy[?policyType=='Full'].retentionPolicy.dailySchedule.retentionDuration.count | [0], RetentionMonths: properties.subProtectionPolicy[?policyType=='Full'].retentionPolicy.monthlySchedule.retentionDuration.count | [0],RetentionYears: properties.subProtectionPolicy[?policyType=='Full'].retentionPolicy.yearlySchedule.retentionDuration.count | [0], SchedulePolicyType: properties.subProtectionPolicy[?policyType=='Full'].schedulePolicy.schedulePolicyType, ScheduleRunFrequency: properties.subProtectionPolicy[?policyType=='Full'].schedulePolicy.scheduleRunFrequency, WorkloadType: properties.workLoadType, ResourceGroup: resourceGroup}" --output json 2>/dev/null)
                if [ -n "$policyDetails" ]; then
                    # Parse the policy JSON and create a CSV entry
                    policyJson=$(echo "$policyDetails" | jq -r '.')
                    policyName=$(echo "$policyJson" | jq -r '.PolicyName')
                    retentionDays=$(echo "$policyJson" | jq -r '.RetentionDays')
                    retentionMonths=$(echo "$policyJson" | jq -r '.RetentionMonths')
+                   retentionYears=$(echo "$policyJson" | jq -r '.RetentionYears')
                    schedulePolicyType=$(echo "$policyJson" | jq -r '.SchedulePolicyType | join(", ") // empty')
                    scheduleRunFrequency=$(echo "$policyJson" | jq -r '.ScheduleRunFrequency | join(", ") // empty')
                    workloadType=$(echo "$policyJson" | jq -r '.WorkloadType')
@@ -69,13 +70,14 @@ for sub in $(echo "${subscriptions}" | jq -r '.[] | @base64'); do
                    echo "PolicyName: $policyName"
                    echo "RetentionDays: $retentionDays"
                    echo "RetentionMonths: $retentionMonths"
+                   echo "RetentionYears: $retentionYears"
                    echo "SchedulePolicyType: $schedulePolicyType"
                    echo "ScheduleRunFrequency: $scheduleRunFrequency"
                    echo "WorkloadType: $workloadType"
                    echo "ResourceGroup: $resourceGroup"
 
                    # Append the data to the CSV file
-                   echo "$subscriptionName,$policyName,$retentionDays,$retentionMonths,$schedulePolicyType,$scheduleRunFrequency,$workloadType,$resourceGroup,$vault" >> policy.csv
+                   echo "$subscriptionName,$policyName,$retentionDays,$retentionMonths,$retentionYears,$schedulePolicyType,$scheduleRunFrequency,$workloadType,$resourceGroup,$vault" >> policy.csv
 
                    # Output the resource group and vault name
                    echo "Subscription: $subscriptionName"
