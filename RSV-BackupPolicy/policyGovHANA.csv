@@ -1,0 +1,94 @@
+SubscriptionName,PolicyName,RetentionDays,RetentionWeeks,RetentionMonths,RetentionYears,IncrementalRetentionDays,SchedulePolicyType,ScheduleRunFrequency,ScheduleRunDays,WorkloadType,ResourceGroup,RecoveryServicesVault
+Sub-MoogGov-SAP-Prod,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGV-ADSAP-Backup,rsv-usagv-adsap-backup
+Sub-MoogGov-SAP-Prod,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-Backup,rsv-usagv-adsap-backup
+Sub-MoogGov-SAP-Prod,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-Backup,rsv-usagv-adsap-backup
+Sub-MoogGov-SAP-Prod,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-Backup-Prep,rsv-usagv-adsap-backup-pr
+Sub-MoogGov-SAP-Prod,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGV-ADSAP-Backup-Prep,rsv-usagv-adsap-backup-pr
+Sub-MoogGov-SAP-Prod,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-Backup-Prep,rsv-usagv-adsap-backup-pr
+Sub-MoogGov-SAP-Prod,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-Middleware-Common,rsv-usagv-adsap-middleware-common
+Sub-MoogGov-SAP-Prod,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGV-ADSAP-Middleware-Common,rsv-usagv-adsap-middleware-common
+Sub-MoogGov-SAP-Prod,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-Middleware-Common,rsv-usagv-adsap-middleware-common
+Sub-MoogGov-SAP-Prod,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGV-MGMT-VM-Backup,BACKUP-VM-Recovery-Vault
+Sub-MoogGov-SAP-Prod,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-MGMT-VM-Backup,BACKUP-VM-Recovery-Vault
+Sub-MoogGov-SAP-Prod,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-MGMT-VM-Backup,BACKUP-VM-Recovery-Vault
+Sub-MoogGov-SAP-Prod,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGA-ADSAP-Backup,rsv-usaga-adsap-backup
+Sub-MoogGov-SAP-Prod,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGA-ADSAP-Backup,rsv-usaga-adsap-backup
+Sub-MoogGov-SAP-Prod,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGA-ADSAP-Backup,rsv-usaga-adsap-backup
+Sub-MoogGov-SAP-Prod,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGA-ADSAP-Recovery,rsv-usaga-adsap-recovery
+Sub-MoogGov-SAP-Prod,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGA-ADSAP-Recovery,rsv-usaga-adsap-recovery
+Sub-MoogGov-SAP-Prod,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGA-ADSAP-Recovery,rsv-usaga-adsap-recovery
+Production Moog Portal,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-Moog-AmerGov-SPFarm,BUP-USAGV-SPFarm
+Production Moog Portal,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-Moog-AmerGov-SPFarm,BUP-USAGV-SPFarm
+Production Moog Portal,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-Moog-AmerGov-SPFarm,BUP-USAGV-SPFarm
+Production Moog Portal,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-Moog-AmerGov-SPFarm-Stg,BUP-USAGV-SPFarm-STG
+Production Moog Portal,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-Moog-AmerGov-SPFarm-Stg,BUP-USAGV-SPFarm-STG
+Production Moog Portal,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-Moog-AmerGov-SPFarm-Stg,BUP-USAGV-SPFarm-STG
+Production Moog Portal,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-Moog-AmerGov-System,RSV-USAGV-IaaS
+Production Moog Portal,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-Moog-AmerGov-System,RSV-USAGV-IaaS
+Production Moog Portal,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-Moog-AmerGov-System,RSV-USAGV-IaaS
+Production Moog Portal,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-Moog-AmerGov-DistApps-iObeya,RSV-USAGV-iObeya
+Production Moog Portal,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-Moog-AmerGov-DistApps-iObeya,RSV-USAGV-iObeya
+Production Moog Portal,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-Moog-AmerGov-DistApps-iObeya,RSV-USAGV-iObeya
+Production Moog Portal,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGA-DataServices-Recovery,RSV-USAGA-DataServices-Recovery
+Production Moog Portal,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGA-DataServices-Recovery,RSV-USAGA-DataServices-Recovery
+Production Moog Portal,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGA-DataServices-Recovery,RSV-USAGA-DataServices-Recovery
+Production Moog Portal,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGA-Systems,RSV-USAGA-SYSTEMS
+Production Moog Portal,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGA-Systems,RSV-USAGA-SYSTEMS
+Production Moog Portal,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGA-Systems,RSV-USAGA-SYSTEMS
+Production Moog Portal,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGT-Systems,vault149
+Production Moog Portal,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGT-Systems,vault149
+Production Moog Portal,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGT-Systems,vault149
+Sub-MoogGov-SAP-Dev,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGV-ADSAP-3-Backup-Dev,rsv-usagv-adsap-3-backup-dev
+Sub-MoogGov-SAP-Dev,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-3-Backup-Dev,rsv-usagv-adsap-3-backup-dev
+Sub-MoogGov-SAP-Dev,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-3-Backup-Dev,rsv-usagv-adsap-3-backup-dev
+Sub-MoogGov-SAP-Dev,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-3-Backup-QA,rsv-usagv-adsap-3-backup-qa
+Sub-MoogGov-SAP-Dev,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGV-ADSAP-3-Backup-QA,rsv-usagv-adsap-3-backup-qa
+Sub-MoogGov-SAP-Dev,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-3-Backup-QA,rsv-usagv-adsap-3-backup-qa
+Sub-MoogGov-SAP-Dev,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-4-Backup-QA,rsv-usagv-adsap-4-backup-qa
+Sub-MoogGov-SAP-Dev,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-4-Backup-QA,rsv-usagv-adsap-4-backup-qa
+Sub-MoogGov-SAP-Dev,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGV-ADSAP-4-Backup-QA,rsv-usagv-adsap-4-backup-qa
+Sub-MoogGov-SAP-Dev,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGV-ADSAP-Backup-Dev,rsv-usagv-adsap-backup-dev
+Sub-MoogGov-SAP-Dev,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-Backup-Dev,rsv-usagv-adsap-backup-dev
+Sub-MoogGov-SAP-Dev,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-Backup-Dev,rsv-usagv-adsap-backup-dev
+Sub-MoogGov-SAP-Dev,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-Backup-NP,rsv-usagv-adsap-backup-np
+Sub-MoogGov-SAP-Dev,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGV-ADSAP-Backup-NP,rsv-usagv-adsap-backup-np
+Sub-MoogGov-SAP-Dev,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-Backup-NP,rsv-usagv-adsap-backup-np
+Sub-MoogGov-SAP-Dev,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGV-ADSAP-Backup-QA,rsv-usagv-adsap-backup-qa
+Sub-MoogGov-SAP-Dev,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-Backup-QA,rsv-usagv-adsap-backup-qa
+Sub-MoogGov-SAP-Dev,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-Backup-QA,rsv-usagv-adsap-backup-qa
+Sub-MoogGov-SAP-Dev,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGV-ADSAP-Backup-SB,rsv-usagv-adsap-backup-sb
+Sub-MoogGov-SAP-Dev,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-Backup-SB,rsv-usagv-adsap-backup-sb
+Sub-MoogGov-SAP-Dev,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-Backup-SB,rsv-usagv-adsap-backup-sb
+Sub-MoogGov-SAP-Dev,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-Backup-Trn,rsv-usagv-adsap-backup-trn
+Sub-MoogGov-SAP-Dev,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGV-ADSAP-Backup-Trn,rsv-usagv-adsap-backup-trn
+Sub-MoogGov-SAP-Dev,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-ADSAP-Backup-Trn,rsv-usagv-adsap-backup-trn
+Sub-MoogGov-SAP-Dev,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,rg-usaga-adsap-backup-dev,rsv-usaga-adsap-backup-dev
+Sub-MoogGov-SAP-Dev,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,rg-usaga-adsap-backup-dev,rsv-usaga-adsap-backup-dev
+Sub-MoogGov-SAP-Dev,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,rg-usaga-adsap-backup-dev,rsv-usaga-adsap-backup-dev
+Sub-MoogGov-SAP-Dev,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGA-ADSAP-Backup-NP,rsv-usaga-adsap-backup-np
+Sub-MoogGov-SAP-Dev,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGA-ADSAP-Backup-NP,rsv-usaga-adsap-backup-np
+Sub-MoogGov-SAP-Dev,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGA-ADSAP-Backup-NP,rsv-usaga-adsap-backup-np
+Sub-MoogGov-Core-Identity,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-Identity-Backup,RSV-USAGV-Identity-Backup
+Sub-MoogGov-Core-Identity,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-Identity-Backup,RSV-USAGV-Identity-Backup
+Sub-MoogGov-Core-Identity,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGV-Identity-Backup,RSV-USAGV-Identity-Backup
+Sub-MoogGov-Core-Identity,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGA-Identity-Backup,RSV-USAGA-Identity-Backup
+Sub-MoogGov-Core-Identity,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGA-Identity-Backup,RSV-USAGA-Identity-Backup
+Sub-MoogGov-Core-Identity,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGA-Identity-Backup,RSV-USAGA-Identity-Backup
+Sub-MoogGov-Core-Identity,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGT-Identity-Backup,RSV-USAGT-Identity-Backup
+Sub-MoogGov-Core-Identity,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGT-Identity-Backup,RSV-USAGT-Identity-Backup
+Sub-MoogGov-Core-Identity,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGT-Identity-Backup,RSV-USAGT-Identity-Backup
+Sub-MoogGov-AG-AOS-Prod,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGV-AOS-Backup,RSV-USAGV-AOS-Backup
+Sub-MoogGov-AG-AOS-Prod,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-AOS-Backup,RSV-USAGV-AOS-Backup
+Sub-MoogGov-AG-AOS-Prod,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-AOS-Backup,RSV-USAGV-AOS-Backup
+Sub-MoogGov-Corp-Analytics-NonProd,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGV-Analytics-Backup-NP,RSV-USAGV-Analytics-Backup-NP
+Sub-MoogGov-Corp-Analytics-NonProd,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-Analytics-Backup-NP,RSV-USAGV-Analytics-Backup-NP
+Sub-MoogGov-Corp-Analytics-NonProd,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-Analytics-Backup-NP,RSV-USAGV-Analytics-Backup-NP
+Sub-MoogGov-EngineeringApplications-Prod,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-EngApps-Backup,RSV-USAGV-EngApps-Backup
+Sub-MoogGov-EngineeringApplications-Prod,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-EngApps-Backup,RSV-USAGV-EngApps-Backup
+Sub-MoogGov-EngineeringApplications-Prod,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGV-EngApps-Backup,RSV-USAGV-EngApps-Backup
+Sub-MoogGov-EngineeringApplications-NonProd,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-EngApps-Backup-NP,RSV-USAGV-EngApps-Backup-NP
+Sub-MoogGov-EngineeringApplications-NonProd,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGV-EngApps-Backup-NP,RSV-USAGV-EngApps-Backup-NP
+Sub-MoogGov-EngineeringApplications-NonProd,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-EngApps-Backup-NP,RSV-USAGV-EngApps-Backup-NP
+Sub-MoogGov-Corp-Analytics-Prod,HANADB-Tier3,null,4,1,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-Analytics-Backup,RSV-USAGV-Analytics-Backup
+Sub-MoogGov-Corp-Analytics-Prod,HANADB-Tier1,60,null,13,7,null,SimpleSchedulePolicy,Daily,[],SAPHanaDatabase,RG-USAGV-Analytics-Backup,RSV-USAGV-Analytics-Backup
+Sub-MoogGov-Corp-Analytics-Prod,HANADB-Tier2,null,4,6,null,28,SimpleSchedulePolicy,Weekly,[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday],SAPHanaDatabase,RG-USAGV-Analytics-Backup,RSV-USAGV-Analytics-Backup

@@ -1,0 +1,60 @@
+{
+  "eTag": null,
+  "id": "/subscriptions/c74ec5fa-7686-4614-bbb8-611b7db3bb15/resourceGroups/RG-USAGA-ADSAP-Backup/providers/Microsoft.RecoveryServices/vaults/rsv-usaga-adsap-backup/backupPolicies/FileShare-Tier1",
+  "location": null,
+  "name": "FileShare-Tier1",
+  "properties": {
+    "backupManagementType": "AzureStorage",
+    "protectedItemsCount": 0,
+    "resourceGuardOperationRequests": null,
+    "retentionPolicy": {
+      "dailySchedule": {
+        "retentionDuration": {
+          "count": 30,
+          "durationType": "Days"
+        },
+        "retentionTimes": [
+          "2023-06-23T01:00:00+00:00"
+        ]
+      },
+      "monthlySchedule": {
+        "retentionDuration": {
+          "count": 13,
+          "durationType": "Months"
+        },
+        "retentionScheduleDaily": null,
+        "retentionScheduleFormatType": "Weekly",
+        "retentionScheduleWeekly": {
+          "daysOfTheWeek": [
+            "Sunday"
+          ],
+          "weeksOfTheMonth": [
+            "First"
+          ]
+        },
+        "retentionTimes": [
+          "2023-06-23T01:00:00+00:00"
+        ]
+      },
+      "retentionPolicyType": "LongTermRetentionPolicy",
+      "weeklySchedule": null,
+      "yearlySchedule": null
+    },
+    "schedulePolicy": {
+      "hourlySchedule": null,
+      "schedulePolicyType": "SimpleSchedulePolicy",
+      "scheduleRunDays": null,
+      "scheduleRunFrequency": "Daily",
+      "scheduleRunTimes": [
+        "2023-06-23T01:00:00+00:00"
+      ],
+      "scheduleWeeklyFrequency": 0
+    },
+    "timeZone": "UTC",
+    "vaultRetentionPolicy": null,
+    "workLoadType": "AzureFileShare"
+  },
+  "resourceGroup": "RG-USAGA-ADSAP-Backup",
+  "tags": null,
+  "type": "Microsoft.RecoveryServices/vaults/backupPolicies"
+}

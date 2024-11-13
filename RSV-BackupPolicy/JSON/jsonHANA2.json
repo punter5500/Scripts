@@ -1,0 +1,127 @@
+{
+  "eTag": null,
+  "id": "/subscriptions/7397ef6e-ecb4-4f54-8f62-8da2f3352ed1/resourceGroups/RG-GBAZ1-Analytics-Backup/providers/Microsoft.RecoveryServices/vaults/RSV-GBAZ1-Analytics-Backup/backupPolicies/HANADB-Tier2",
+  "location": null,
+  "name": "HANADB-Tier2",
+  "properties": {
+    "backupManagementType": "AzureWorkload",
+    "makePolicyConsistent": null,
+    "protectedItemsCount": 0,
+    "resourceGuardOperationRequests": null,
+    "settings": {
+      "isCompression": false,
+      "issqlcompression": false,
+      "timeZone": "UTC"
+    },
+    "subProtectionPolicy": [
+      {
+        "policyType": "Full",
+        "retentionPolicy": {
+          "dailySchedule": null,
+          "monthlySchedule": {
+            "retentionDuration": {
+              "count": 6,
+              "durationType": "Months"
+            },
+            "retentionScheduleDaily": null,
+            "retentionScheduleFormatType": "Weekly",
+            "retentionScheduleWeekly": {
+              "daysOfTheWeek": [
+                "Sunday"
+              ],
+              "weeksOfTheMonth": [
+                "First"
+              ]
+            },
+            "retentionTimes": [
+              "2024-02-23T01:00:00+00:00"
+            ]
+          },
+          "retentionPolicyType": "LongTermRetentionPolicy",
+          "weeklySchedule": {
+            "daysOfTheWeek": [
+              "Sunday"
+            ],
+            "retentionDuration": {
+              "count": 4,
+              "durationType": "Weeks"
+            },
+            "retentionTimes": [
+              "2024-02-23T01:00:00+00:00"
+            ]
+          },
+          "yearlySchedule": null
+        },
+        "schedulePolicy": {
+          "hourlySchedule": null,
+          "schedulePolicyType": "SimpleSchedulePolicy",
+          "scheduleRunDays": [
+            "Sunday"
+          ],
+          "scheduleRunFrequency": "Weekly",
+          "scheduleRunTimes": [
+            "2024-02-23T01:00:00+00:00"
+          ],
+          "scheduleWeeklyFrequency": 0
+        },
+        "snapshotBackupAdditionalDetails": null,
+        "tieringPolicy": {
+          "ArchivedRP": {
+            "duration": 0,
+            "durationType": "Invalid",
+            "tieringMode": "DoNotTier"
+          }
+        }
+      },
+      {
+        "policyType": "Incremental",
+        "retentionPolicy": {
+          "retentionDuration": {
+            "count": 28,
+            "durationType": "Days"
+          },
+          "retentionPolicyType": "SimpleRetentionPolicy"
+        },
+        "schedulePolicy": {
+          "hourlySchedule": null,
+          "schedulePolicyType": "SimpleSchedulePolicy",
+          "scheduleRunDays": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "scheduleRunFrequency": "Weekly",
+          "scheduleRunTimes": [
+            "2024-02-23T01:00:00+00:00"
+          ],
+          "scheduleWeeklyFrequency": 0
+        },
+        "snapshotBackupAdditionalDetails": null,
+        "tieringPolicy": null
+      },
+      {
+        "policyType": "Log",
+        "retentionPolicy": {
+          "retentionDuration": {
+            "count": 15,
+            "durationType": "Days"
+          },
+          "retentionPolicyType": "SimpleRetentionPolicy"
+        },
+        "schedulePolicy": {
+          "scheduleFrequencyInMins": 240,
+          "schedulePolicyType": "LogSchedulePolicy"
+        },
+        "snapshotBackupAdditionalDetails": null,
+        "tieringPolicy": null
+      }
+    ],
+    "workLoadType": "SAPHanaDatabase"
+  },
+  "resourceGroup": "RG-GBAZ1-Analytics-Backup",
+  "tags": null,
+  "type": "Microsoft.RecoveryServices/vaults/backupPolicies"
+}
