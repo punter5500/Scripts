@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "dataCollectionRules_name": {
+            "value": "ct-dcr-bash"
+        },
+        "workspaces_externalid": {
+            "value": "/subscriptions/1f23c81c-b2c0-4a87-aa24-854ed990670b/resourceGroups/BillMTestRG/providers/Microsoft.OperationalInsights/workspaces/LAW-USAE2-ANALYTICS"
+        },
+        "dataCollectonRules_location":{
+            "value": "eastus2"
+        }
+    }
+}

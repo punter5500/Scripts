@@ -367,7 +367,6 @@ Moog-Azure-IaaS,RG-USAE2-LN-DFRuntime-Prod,usae2plndfrt01,Windows,No
 Moog-Azure-IaaS,RG-USAE2-Identity-Corp-DC,USAE2SVCORPDC01,Windows,No
 Moog-Azure-IaaS,RG-USAE2-Corp-SFTP,usae2psftp01,Linux,No
 Moog-Azure-IaaS,RG-USAE2-Corporate-SFTPTest,usae2psftpnettest01,Linux,No
-Moog-Azure-IaaS,RG-USAE2-Dynatrace-Dyna,usae2xdynatrc01,Windows,No
 Moog-Azure-IaaS,RG-USAE2-Indysoft-App-Test,usae2xindysft01,Windows,No
 Moog-Azure-IaaS,RG-USAE2-corp-slm-python-scripts-01,usae2svpscrpt01,Windows,No
 Moog-Azure-IaaS,RG-USAE2-corp-slm-python-scripts-02,usae2svpslmpy01,Windows,No
@@ -403,7 +402,11 @@ Moog-Azure-IaaS,RG-NLAW2-Security-CA-Issuing-Server,nlaw2pcrtath01,Windows,Yes
 Moog-Azure-IaaS,RG-NLAW2-IG-China-TestStand,nlaw2ptststnd01,Linux,Yes
 Moog-Azure-IaaS,RG-NLAW2-IG-SLM-SQL2019,nlaw2pslmsql01,Windows,Yes
 Moog-Azure-IaaS,veeam-auto-0550518f-5049-4cf4-a9c3-74ca749950cf,veeam-proxy-appliance-2b31e5c0-371c-4321-b271-044cba6fc7c7,Linux,No
+Moog-Azure-IaaS,veeam-auto-0550518f-5049-4cf4-a9c3-74ca749950cf,veeam-proxy-appliance-401465cf-e72d-4db4-b718-8860eccf1473,Linux,No
+Moog-Azure-IaaS,veeam-auto-0550518f-5049-4cf4-a9c3-74ca749950cf,veeam-proxy-appliance-46b7a1ee-9e0c-4c14-9e1d-98a74d7bc45c,Linux,No
 Moog-Azure-IaaS,veeam-auto-0550518f-5049-4cf4-a9c3-74ca749950cf,veeam-proxy-appliance-597fe352-1684-44d4-9e99-a3db93423b18,Linux,No
+Moog-Azure-IaaS,veeam-auto-0550518f-5049-4cf4-a9c3-74ca749950cf,veeam-proxy-appliance-9da72d5f-0050-4fae-9733-950a1cad80d6,Linux,No
+Moog-Azure-IaaS,veeam-auto-0550518f-5049-4cf4-a9c3-74ca749950cf,veeam-proxy-appliance-bc5b76b4-f2f6-4234-8d73-da6b0be89040,Linux,No
 Moog-Azure-IaaS,RG-GBAZ1-MCG-BI,gbaz1svdfactd01,Windows,Yes
 Moog-Azure-IaaS,RG-GBAZ1-MCG-BI,gbaz1svdfactp01,Windows,Yes
 Moog-Azure-IaaS,RG-GBAZ1-HCM,GBAZ1SVHCMD01,Windows,Yes
@@ -529,7 +532,6 @@ Sub-Moog-Commercial-EndUserVirtualization-Prod,RG-USAE2-Citrix-Infrastructure-Vi
 Sub-Moog-Commercial-EndUserVirtualization-Prod,RG-USAE2-Citrix-Infrastructure-VirtualHosts-Non-Prod,USAE2SVUXGEN005,Windows,No
 Sub-Moog-Commercial-EndUserVirtualization-Prod,RG-USAE2-Citrix-Infrastructure-VirtualHosts-Non-Prod,USAE2SVUXWPS004,Windows,No
 Sub-Moog-Commercial-EndUserVirtualization-Prod,RG-USAE2-Citrix-Infrastructure-VirtualHosts-Non-Prod,USAE2SVUXWPS005,Windows,No
-Sub-Moog-Commercial-EndUserVirtualization-Prod,RG-USAE2-Citrix-Infrastructure-VirtualHosts-Gov-Prod,USAE2SVPGXSHD02,Windows,No
 Sub-Moog-Commercial-EndUserVirtualization-Prod,RG-USAE2-Citrix-Infrastructure-VirtualHosts-Gov-Prod,USAE2SVPGXSHD03,Windows,No
 Sub-Moog-Commercial-EndUserVirtualization-Prod,RG-USAE2-Citrix-Infrastructure-VirtualHosts-Gov-Non-Prod,USAE2SVUGXSHD01,Windows,No
 Sub-Moog-Commercial-EndUserVirtualization-Prod,RG-USAE2-Citrix-Infrastructure-VirtualHosts-China-Prod,usae2svpxcn001,Windows,No
