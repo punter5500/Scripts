@@ -1,0 +1,12 @@
+User Email,Resource Group,Subscription ID,Role,Current Permissions
+pbuczkowski@moog.onmicrosoft.com,rg-usaga-adsap-solumina-activemq-dr,c74ec5fa-7686-4614-bbb8-611b7db3bb15,Virtual Machine Contributor,Virtual Machine Contributor
+pbuczkowski@moog.onmicrosoft.com,rg-usagv-adsap-3-solumina-activemq-dev,25dbfa03-1f59-4081-9af1-f39a2d2095c9,Virtual Machine Contributor,Virtual Machine Contributor
+pbuczkowski@moog.onmicrosoft.com,rg-usagv-adsap-3-solumina-activemq-qa,25dbfa03-1f59-4081-9af1-f39a2d2095c9,Virtual Machine Contributor,Virtual Machine Contributor
+pbuczkowski@moog.onmicrosoft.com,rg-usagv-adsap-4-solumina-activemq-qa,25dbfa03-1f59-4081-9af1-f39a2d2095c9,Virtual Machine Contributor,Virtual Machine Contributor
+pbuczkowski@moog.onmicrosoft.com,rg-usagv-adsap-solumina-activemq,c74ec5fa-7686-4614-bbb8-611b7db3bb15,Virtual Machine Contributor,Virtual Machine Contributor
+pbuczkowski@moog.onmicrosoft.com,rg-usagv-adsap-solumina-activemq-dev,25dbfa03-1f59-4081-9af1-f39a2d2095c9,Virtual Machine Contributor,Virtual Machine Contributor
+pbuczkowski@moog.onmicrosoft.com,rg-usagv-adsap-solumina-activemq-prep,c74ec5fa-7686-4614-bbb8-611b7db3bb15,Virtual Machine Contributor,Virtual Machine Contributor
+pbuczkowski@moog.onmicrosoft.com,rg-usagv-adsap-solumina-activemq-qa,25dbfa03-1f59-4081-9af1-f39a2d2095c9,Virtual Machine Contributor,Virtual Machine Contributor
+pbuczkowski@moog.onmicrosoft.com,rg-usagv-adsap-solumina-activemq-sb,25dbfa03-1f59-4081-9af1-f39a2d2095c9,Virtual Machine Contributor,Virtual Machine Contributor
+pbuczkowski@moog.onmicrosoft.com,rg-usagv-adsap-solumina-activemq-trn,25dbfa03-1f59-4081-9af1-f39a2d2095c9,Virtual Machine Contributor,Virtual Machine Contributor
+pbuczkowski@moog.onmicrosoft.com,rg-usagv-adsap-solumina-bastion-np,25dbfa03-1f59-4081-9af1-f39a2d2095c9,Virtual Machine Contributor,Virtual Machine Contributor
