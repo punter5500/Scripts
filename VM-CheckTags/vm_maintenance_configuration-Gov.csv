@@ -1,0 +1,298 @@
+Subscription Name,VM Name,Resource Group,Update Group,Location,Maintenance Configuration ID
+Sub-MoogGov-SAP-Prod,usagvpautagt01,RG-USAGV-ADSAP-AUTOMIC-AGENT,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,usagvpautagt02,RG-USAGV-ADSAP-AUTOMIC-AGENT,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,usagvpsdaa01,RG-USAGV-ADSAP-DEVOPS-AUTOMATION,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,usagvsvpprint01,RG-USAGV-ADSAP-PRINTSERVER,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,usagvsvpprint02,RG-USAGV-ADSAP-PRINTSERVER,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrfscs01,RG-USAGV-ADSAP-SAP-AS-CENTRALSERVICES-FIORI-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrfscs02,RG-USAGV-ADSAP-SAP-AS-CENTRALSERVICES-FIORI-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrscs01,RG-USAGV-ADSAP-SAP-AS-CENTRALSERVICES-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrscs02,RG-USAGV-ADSAP-SAP-AS-CENTRALSERVICES-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpdsas01,RG-USAGV-ADSAP-SAP-AS-DATASERVICES-EHUB,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,usagvsvpibpas01,RG-USAGV-ADSAP-SAP-AS-IBP-CPI-AGENT,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,usagvsvpibpas02,RG-USAGV-ADSAP-SAP-AS-IBP-CPI-AGENT,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrposcs01,RG-USAGV-ADSAP-SAP-AS-PO-CENTRALSERVICES-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrposcs02,RG-USAGV-ADSAP-SAP-AS-PO-CENTRALSERVICES-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpposcs01,RG-USAGV-ADSAP-SAP-AS-PO-CENTRALSERVICES,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpposcs02,RG-USAGV-ADSAP-SAP-AS-PO-CENTRALSERVICES,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrpoas01,RG-USAGV-ADSAP-SAP-AS-PROCESSORCHESTRATION-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrpoas02,RG-USAGV-ADSAP-SAP-AS-PROCESSORCHESTRATION-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvppoas02,RG-USAGV-ADSAP-SAP-AS-PROCESSORCHESTRATION,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrs4as01,RG-USAGV-ADSAP-SAP-AS-S4-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrs4as02,RG-USAGV-ADSAP-SAP-AS-S4-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpibpsdi01,RG-USAGV-ADSAP-SAP-AS-SDI,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpibpsdi02,RG-USAGV-ADSAP-SAP-AS-SDI,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpsltci01,RG-USAGV-ADSAP-SAP-AS-SLT-EHUB,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpsmap01,RG-USAGV-ADSAP-SAP-AS-SOLUTIONMANAGER,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpdsci01,RG-USAGV-ADSAP-SAP-CI-DATASERVICES-EHUB,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,usagvsvpxccc01,RG-USAGV-ADSAP-SAP-CITRIX-CLOUDCONNECTOR,FAST2-Sun-Prod,usgovvirginia,Fast2-USAGV-SAP-Prod
+Sub-MoogGov-SAP-Prod,usagvsvpxccc02,RG-USAGV-ADSAP-SAP-CITRIX-CLOUDCONNECTOR,SLOW2-Thur-Prod,usgovvirginia,null
+Sub-MoogGov-SAP-Prod,usagvsvpcxsol01,RG-USAGV-ADSAP-SAP-CITRIX-XENAPP,FAST2-Sun-Prod,usgovvirginia,Fast2-USAGV-SAP-Prod
+Sub-MoogGov-SAP-Prod,usagvsvpcxsol02,RG-USAGV-ADSAP-SAP-CITRIX-XENAPP,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrcodb01,RG-USAGV-ADSAP-SAP-DB-HANA-COMMON-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrcodb02,RG-USAGV-ADSAP-SAP-DB-HANA-COMMON-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpehdb01,RG-USAGV-ADSAP-SAP-DB-HANA-EHUB,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrpodb01,RG-USAGV-ADSAP-SAP-DB-HANA-PO-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrpodb02,RG-USAGV-ADSAP-SAP-DB-HANA-PO-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvppodb01,RG-USAGV-ADSAP-SAP-DB-HANA-PO,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvppodb02,RG-USAGV-ADSAP-SAP-DB-HANA-PO,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrs4db01,RG-USAGV-ADSAP-SAP-DB-HANA-S4-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrs4db02,RG-USAGV-ADSAP-SAP-DB-HANA-S4-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpsmdb01,RG-USAGV-ADSAP-SAP-DB-HANA-SOL,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpgrcci01,RG-USAGV-ADSAP-SAP-GRC,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,usagvsvpbodjm01,RG-USAGV-ADSAP-SAP-JUMP-BODS,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrgwas01,RG-USAGV-ADSAP-SAP-WEB-FIORI-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrgwas02,RG-USAGV-ADSAP-SAP-WEB-FIORI-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrwdci01,RG-USAGV-ADSAP-SAP-WEB-WEBDISPATCHER-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvrwdci02,RG-USAGV-ADSAP-SAP-WEB-WEBDISPATCHER-PREP,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,usagvsvrsolm01,RG-USAGV-ADSAP-SOLUMINA-ACTIVEMQ-PREP,FAST1-Thur-NonProd,usgovvirginia,Fast1-USAGV-SAP-Production
+Sub-MoogGov-SAP-Prod,usagvsvpsolm01,RG-USAGV-ADSAP-SOLUMINA-ACTIVEMQ,SLOW2-Thur-Prod,usgovvirginia,null
+Sub-MoogGov-SAP-Prod,usagvsvpsolba01,RG-USAGV-ADSAP-SOLUMINA-BASTION,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,usagvsvpsoldm01,RG-USAGV-ADSAP-SOLUMINA-DATAMOVER,SLOW3-Sun-Prod,usgovvirginia,null
+Sub-MoogGov-SAP-Prod,usagasvphwkr01,RG-USAGA-ADSAP-AUTOMATION-HYBRIDWORKER,SLOW3-Sun-Prod,usgovarizona,Slow3-USAGA-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agappoas01,RG-USAGA-ADSAP-SAP-AS-PROCESSORCHESTRATION-DR,ADSAP-Prod,usgovarizona,Slow2-USAGA-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agappodb01,RG-USAGA-ADSAP-SAP-DB-HANA-PO-DR,ADSAP-Prod,usgovarizona,Slow2-USAGA-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,usagasvpsolm01,RG-USAGA-ADSAP-SOLUMINA-ACTIVEMQ-DR,SLOW2-Thur-Prod,usgovarizona,Slow2-USAGA-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agapnfs01,RG-USAGA-SAP-AS-NFS-DR,ADSAP-Prod,usgovarizona,Slow2-USAGA-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agaps4as01,RG-USAGA-SAP-AS-S4-DR,ADSAP-Prod,usgovarizona,Slow2-USAGA-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agapsaprt01,RG-USAGA-SAP-AS-SAPROUTER-DR,ADSAP-DR,usgovarizona,null
+Sub-MoogGov-SAP-Prod,agaps4db01,RG-USAGA-SAP-DB-HANA-S4-DR,ADSAP-Prod,usgovarizona,Slow2-USAGA-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agapcodb01,RG-USAGA-SAP-DB-HANA-SHARED-DR,ADSAP-DR,usgovarizona,null
+Sub-MoogGov-SAP-Prod,agapsaprtr01,RG-USAGA-SAP-ROUTER,ADSAP-Prod,usgovarizona,Slow2-USAGA-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agapgwas01,RG-USAGA-SAP-WEB-FIORI-DR,ADSAP-DR,usgovarizona,null
+Sub-MoogGov-SAP-Prod,agapwdci01,RG-USAGA-SAP-WEB-WEBDISPATCHER-DR,ADSAP-Prod,usgovarizona,Slow2-USAGA-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpfscs01,RG-USAGV-SAP-AS-CENTRALSERVICES-FIORI,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpfscs02,RG-USAGV-SAP-AS-CENTRALSERVICES-FIORI,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpscs01,RG-USAGV-SAP-AS-CENTRALSERVICES,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpscs02,RG-USAGV-SAP-AS-CENTRALSERVICES,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvppoas01,RG-USAGV-SAP-AS-PROCESSORCHESTRATION,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvps4as01,RG-USAGV-SAP-AS-S4,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvps4as02,RG-USAGV-SAP-AS-S4,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvps4as03,RG-USAGV-SAP-AS-S4,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvps4as04,RG-USAGV-SAP-AS-S4,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvps4db01,RG-USAGV-SAP-DB-HANA-S4,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvps4db02,RG-USAGV-SAP-DB-HANA-S4,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpcodb01,RG-USAGV-SAP-DB-HANA-SHARED,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpcodb02,RG-USAGV-SAP-DB-HANA-SHARED,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpsaprtr01,RG-USAGV-SAP-ROUTER,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpgwas01,RG-USAGV-SAP-WEB-FIORI,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpgwas02,RG-USAGV-SAP-WEB-FIORI,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpgwas03,RG-USAGV-SAP-WEB-FIORI,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpgwas04,RG-USAGV-SAP-WEB-FIORI,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpwdci01,RG-USAGV-SAP-WEB-WEBDISPATCHER,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Sub-MoogGov-SAP-Prod,agvpwdci02,RG-USAGV-SAP-WEB-WEBDISPATCHER,ADSAP-Prod,usgovvirginia,Slow1-USAGV-ADSAP-Prod
+Production Moog Portal,USAZGOVDWGPDV1,RG-MOOG-AMERGOV-ADPS,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,USAZUREDWGP01,RG-MOOG-AMERGOV-ADPS,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,USAzGovCORPDC1,RG-MOOG-AMERGOV-DIRECTORY,SCCM,usgovvirginia,null
+Production Moog Portal,USAzGovMOOGDC1,RG-MOOG-AMERGOV-DIRECTORYMOOG,SCCM,usgovvirginia,null
+Production Moog Portal,USAGVSVIOBEYA01,RG-MOOG-AMERGOV-DISTAPPS-IOBEYA,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSVIOBEYAP1,RG-MOOG-AMERGOV-DISTAPPS-IOBEYA,FAST2-Sun-Prod,usgovvirginia,Fast2-USAGV-ProductionMoogPortal
+Production Moog Portal,USAzGovLRDC01,RG-MOOG-AMERGOV-LOGRHYTHM,SLOW2-Thur-Prod,usgovvirginia,Slow2-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSAPP01,RG-MOOG-AMERGOV-SPFARM-STG,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSAPP02,RG-MOOG-AMERGOV-SPFARM-STG,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSDC01,RG-MOOG-AMERGOV-SPFARM-STG,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSDC02,RG-MOOG-AMERGOV-SPFARM-STG,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSRDP01,RG-MOOG-AMERGOV-SPFARM-STG,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSRDP02,RG-MOOG-AMERGOV-SPFARM-STG,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSSQL01,RG-MOOG-AMERGOV-SPFARM-STG,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSSQL02,RG-MOOG-AMERGOV-SPFARM-STG,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSWEB01,RG-MOOG-AMERGOV-SPFARM-STG,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSWEB02,RG-MOOG-AMERGOV-SPFARM-STG,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSVPGWAPP01,RG-MOOG-AMERGOV-SPFARM,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,USAGVSVPGWAPP02,RG-MOOG-AMERGOV-SPFARM,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,USAGVSVPGWAPP02R,RG-MOOG-AMERGOV-SPFARM,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,USAGVSVPGWDC01,RG-MOOG-AMERGOV-SPFARM,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,USAGVSVPGWDC02,RG-MOOG-AMERGOV-SPFARM,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,USAGVSVPGWSQL01,RG-MOOG-AMERGOV-SPFARM,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,USAGVSVPGWSQL02,RG-MOOG-AMERGOV-SPFARM,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,USAGVSVPGWWEB01,RG-MOOG-AMERGOV-SPFARM,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,USAGVSVPGWWEB02,RG-MOOG-AMERGOV-SPFARM,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,usagvsvtmc02,RG-MOOG-AMERGOV-TEAMCENTER,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,usagvpsvn02,RG-USAGV-AIRCRAFT-APP-SUBVERSION,SCCM,usgovvirginia,null
+Production Moog Portal,usagvpsvn08,RG-USAGV-AIRCRAFT-APPLICATION-SUBVERSION,SCCM,usgovvirginia,null
+Production Moog Portal,usagvpsvn09,RG-USAGV-AIRCRAFT-SVNAPPLICATION-SUBVERSION,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,USAGVPCIMCAPP01,RG-USAGV-CIMCO-APP,FAST2-Sun-Prod,usgovvirginia,Fast2-USAGV-ProductionMoogPortal
+Production Moog Portal,usagvcccq01,RG-USAGV-CORP-CLEARCASE-PROD,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,usagvcccq02,RG-USAGV-CORP-CLEARCASE-PROD,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,usagvsvsspstg01,RG-USAGV-CORP-SPSTG-SB,FAST1-Thur-NonProd,usgovvirginia,Fast1-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSVIOBEYAD1,RG-USAGV-DISTAPPS-IOBEYA-DEV,FAST2-Sun-Prod,usgovvirginia,Fast2-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSVHCM01,RG-USAGV-HCM,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-ProductionMoogPortal
+Production Moog Portal,USAZGOVHCM02,RG-USAGV-HCM,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSVPSQL01,RG-USAGV-MSSQLCLUSTER,SCCM,usgovvirginia,null
+Production Moog Portal,USAGVSVPSQL02,RG-USAGV-MSSQLCLUSTER,SCCM,usgovvirginia,null
+Production Moog Portal,USAGVSVMWWD01,RG-USAGV-MWW_APPLICATIONS-DEV,FAST1-Thur-NonProd,usgovvirginia,Fast1-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSVMWWP01,RG-USAGV-MWW_APPLICATIONS-PROD,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,USAGVSVNPPBIR01,RG-USAGV-POWERBI-REPORT-NP,FAST2-Sun-Prod,usgovvirginia,Fast2-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSVNPPBIR02,RG-USAGV-POWERBI-REPORT-NP,FAST2-Sun-Prod,usgovvirginia,Fast2-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSVPPWRBI01,RG-USAGV-POWERBI-REPORT,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,USAGVSVPPWRBI02,RG-USAGV-POWERBI-REPORT,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,USAGVSVPWRBID01,RG-USAGV-POWERBI,FAST2-Sun-Prod,usgovvirginia,Fast2-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSVDIOTIR01,RG-USAGV-SDG-IOT-IRE-DEV,FAST2-Sun-Prod,usgovvirginia,Fast2-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSVNPSQL01,RG-USAGV-SQLCLUSTER-NONPROD,SCCM,usgovvirginia,null
+Production Moog Portal,USAGVSVNPSQL02,RG-USAGV-SQLCLUSTER-NONPROD,SCCM,usgovvirginia,null
+Production Moog Portal,USAGVSVEASUBV03,RG-USAGV-SUBVERSION,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,USAGTSVDGW01,RG-USAGT-AZURE_DATA_GATEWAY,FAST2-Sun-Prod,usgovtexas,Fast2-USAGT-ProductionMoogPortal
+Production Moog Portal,USAGTSVDGW02,RG-USAGT-AZURE_DATA_GATEWAY,FAST2-Sun-Prod,usgovtexas,Fast2-USAGT-ProductionMoogPortal
+Production Moog Portal,usagtsvvlp01,RG-USAGT-VEEAM,SLOW2-Thur-Prod,usgovtexas,Slow2-USAGT-ProductionMoogPortal
+Production Moog Portal,veeam-proxy-appliance-68afbf57-0252-4e60-86ca-c5cf99fd0350,RG-USAGT-VEEAM,None,usgovtexas,null
+Production Moog Portal,USAGASVCORPDC01,RG-USAGA-DIRECTORY,SCCM,usgovarizona,null
+Production Moog Portal,USAGASVMOOGDC01,RG-USAGA-DIRECTORY,SCCM,usgovarizona,null
+Production Moog Portal,USAGASVIOBEYAD1,RG-USAGA-DISTAPPS-IOBEYA-DEV,FAST1-Thur-NonProd,usgovarizona,Fast1-USAGA-ProductionMoogPortal
+Production Moog Portal,USAGASVIOBEYAP2,RG-USAGA-DISTAPPS-IOBEYA,SLOW3-Sun-Prod,usgovarizona,Slow3-USAGA-ProductionMoogPotal
+Production Moog Portal,usagaplivlr01,RG-USAGA-VEEAM-BACKUP-STORAGE-PROXY,SLOW1-Tue-Prod,usgovarizona,Slow1-USAGA-ProductionMoogPortal
+Production Moog Portal,USAGASVVBOP01,RG-USAGA-VEEAM-PROD,SLOW3-Sun-Prod,usgovarizona,Slow3-USAGA-ProductionMoogPotal
+Production Moog Portal,USAGASVVBOP02,RG-USAGA-VEEAM-PROD,SLOW3-Sun-Prod,usgovarizona,Slow3-USAGA-ProductionMoogPotal
+Production Moog Portal,USAGASVVLP01,RG-USAGA-VEEAM-PROD,SLOW3-Sun-Prod,usgovarizona,Slow3-USAGA-ProductionMoogPotal
+Production Moog Portal,veeam-proxy-appliance-3dbbfcda-fd85-498a-a996-63228575950f,RG-USAGA-VEEAM-PROD,None,usgovarizona,null
+Production Moog Portal,veeam-proxy-appliance-949502ef-2042-460b-b807-53c50d8ec92a,RG-USAGA-VEEAM-PROD,None,usgovarizona,null
+Production Moog Portal,veeam-proxy-appliance-1ba31621-6b2a-412b-9fe5-dac075f29f6c,VEEAM-AUTO-11F323AF-B03C-421A-9E57-1F38221928BE,None,usgovarizona,null
+Production Moog Portal,veeam-proxy-appliance-885c58bb-28e2-4887-90a9-0451ee2d5e31,VEEAM-AUTO-11F323AF-B03C-421A-9E57-1F38221928BE,None,usgovarizona,null
+Production Moog Portal,veeam-proxy-appliance-8d8659e1-c1a0-4c91-93e3-23e95255d5ef,VEEAM-AUTO-11F323AF-B03C-421A-9E57-1F38221928BE,None,usgovarizona,null
+Production Moog Portal,USAGVSVEASUBV07,RG-USAGV-SUBVERSION,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVSVTRAMS01,RG-USAGV-TRAVEL,SLOW2-Thur-Prod,usgovvirginia,Slow2-USAGV-ProductionMoogPortal
+Production Moog Portal,usagvplivlr01,RG-USAGV-VEEAM-BACKUP-STORAGE-PROXY,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-ProductionMoogPortal
+Production Moog Portal,usagvpvmrpmgt01,RG-USAGV-VEEAM-REPLICATONMANAGEMENT,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,USAGVSVUSVBR01,RG-USAGV-VEEAM,042-Manual,usgovvirginia,null
+Production Moog Portal,usagvsvvem01-2024119,RG-USAGV-VEEAM,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-ProductionMoogPortal
+Production Moog Portal,usagvsvvlp01,RG-USAGV-VEEAM,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,usagvsvvlp02,RG-USAGV-VEEAM,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,USAGVSVVLP03,RG-USAGV-VEEAM,SLOW2-Thur-Prod,usgovvirginia,Slow2-USAGV-ProductionMoogPortal
+Production Moog Portal,usagvsvvsql01,RG-USAGV-VEEAM,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-ProductionMoogPortal
+Production Moog Portal,veeam-linux-helper-appliance-124e5,RG-USAGV-VEEAM,None,usgovvirginia,null
+Production Moog Portal,veeam-proxy-appliance-azure-mphjb,RG-USAGV-VEEAM,Appliance,usgovvirginia,null
+Production Moog Portal,veeam-proxy-appliance-azure-vbpyi,RG-USAGV-VEEAM,Appliance,usgovvirginia,null
+Production Moog Portal,veeam-proxy-appliance-c50193ac-b812-4e2c-9f00-115f4054e79f,RG-USAGV-VEEAM,None,usgovvirginia,null
+Production Moog Portal,veeam-proxy-appliance-e0462a97-56d5-47a6-890f-148ef1842974,RG-USAGV-VEEAM,None,usgovvirginia,null
+Production Moog Portal,USAGVDXECM01,RG-USAGV-XECM-DEV,FAST2-Sun-Prod,usgovvirginia,Fast2-USAGV-ProductionMoogPortal
+Production Moog Portal,USAGVPXECM01,RG-USAGV-XECM-PROD,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-ProductionMoogPotal
+Production Moog Portal,veeam-proxy-appliance-2891179c-d6be-4104-ba60-2ba39c25b16d,VEEAM-AUTO-C41C8D7B-8BD1-41CF-91FA-30C97C39BEC1,None,usgovvirginia,null
+Production Moog Portal,veeam-proxy-appliance-f8ae4bc1-3bf0-4d8a-b241-35fba23e2a8a,VEEAM-AUTO-C41C8D7B-8BD1-41CF-91FA-30C97C39BEC1,None,usgovvirginia,null
+Sub-MoogGov-CollaborationMessaging-NonProd,usagvsvqspapp01,RG-USAGV-CMS-APPLICATION-QA,SLOW2-Thur-Prod,usgovvirginia,null
+Sub-MoogGov-CollaborationMessaging-NonProd,usagvsvqspss01,RG-USAGV-CMS-APPLICATION-QA,FAST1-Thur-NonProd,usgovvirginia,Fast1-USAGV--CollaborationMessaging-NonProd
+Sub-MoogGov-CollaborationMessaging-NonProd,usagvsvqspdb01,RG-USAGV-CMS-DATABASE-QA,FAST1-Thur-NonProd,usgovvirginia,Fast1-USAGV--CollaborationMessaging-NonProd
+Sub-MoogGov-CollaborationMessaging-NonProd,usagvsvqspws01,RG-USAGV-CMS-WEBSERVER-QA,FAST1-Thur-NonProd,usgovvirginia,Fast1-USAGV--CollaborationMessaging-NonProd
+Sub-MoogGov-SAP-Dev,agvd3poci01,RG-USAGV-ADSAP-3-SAP-AS-PROCESSORCHESTRATION-DEV,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvq3poci01,RG-USAGV-ADSAP-3-SAP-AS-PROCESSORCHESTRATION-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvd3s4ci01,RG-USAGV-ADSAP-3-SAP-AS-S4-DEV,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvq3s4as01,RG-USAGV-ADSAP-3-SAP-AS-S4-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvq3s4as02,RG-USAGV-ADSAP-3-SAP-AS-S4-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvd3codb01,RG-USAGV-ADSAP-3-SAP-DB-HANA-COMMON-DEV,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvq3codb01,RG-USAGV-ADSAP-3-SAP-DB-HANA-COMMON-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvd3s4db01,RG-USAGV-ADSAP-3-SAP-DB-HANA-S4-DEV,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvq3s4db01,RG-USAGV-ADSAP-3-SAP-DB-HANA-S4-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvq3poas01,RG-USAGV-ADSAP-3-SAP-PROCESSORCHESTRATION-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvd3gwci01,RG-USAGV-ADSAP-3-SAP-WEB-FIORI-DEV,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvq3gwas01,RG-USAGV-ADSAP-3-SAP-WEB-FIORI-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvd3wdci01,RG-USAGV-ADSAP-3-SAP-WEB-WEBDISPATCHER-DEV,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvq3wdci01,RG-USAGV-ADSAP-3-SAP-WEB-WEBDISPATCHER-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,usagvsvd3solm01,RG-USAGV-ADSAP-3-SOLUMINA-ACTIVEMQ-DEV,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,usagvsvq3solm01,RG-USAGV-ADSAP-3-SOLUMINA-ACTIVEMQ-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvq4s4as01,RG-USAGV-ADSAP-4-SAP-AS-S4-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvq4codb01,RG-USAGV-ADSAP-4-SAP-DB-HANA-COMMON-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvq4s4db01,RG-USAGV-ADSAP-4-SAP-DB-HANA-S4-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvq4gwas01,RG-USAGV-ADSAP-4-SAP-WEB-FIORI-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvq4wdci01,RG-USAGV-ADSAP-4-SAP-WEB-WEBDISPATCHER-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,usagvsvq4solm01,RG-USAGV-ADSAP-4-SOLUMINA-ACTIVEMQ-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,usagvdautagt01,RG-USAGV-ADSAP-AUTOMIC-AGENT-DEV,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,usagvqautagt01,RG-USAGV-ADSAP-AUTOMIC-AGENT-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,usagvsvnbascc01,RG-USAGV-ADSAP-BAS-CLOUDCONNECTOR-NP,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,usagvsvnprint01,RG-USAGV-ADSAP-PRINTSERVER-NP,SCCM,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,usagvsvnprint02,RG-USAGV-ADSAP-PRINTSERVER-NP,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvqfscs01,RG-USAGV-ADSAP-SAP-AS-CENTRALSERVICES-FIORI-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvqfscs02,RG-USAGV-ADSAP-SAP-AS-CENTRALSERVICES-FIORI-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvqscs01,RG-USAGV-ADSAP-SAP-AS-CENTRALSERVICES-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvqscs02,RG-USAGV-ADSAP-SAP-AS-CENTRALSERVICES-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvndsas01,RG-USAGV-ADSAP-SAP-AS-DATASERVICES-EHUB-NP,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,usagvsvnibpas01,RG-USAGV-ADSAP-SAP-AS-IBP-CPI-AGENT-NP,FAST1-Thur-NonProd,usgovvirginia,Fast1-USAGV-SAP-Dev
+Sub-MoogGov-SAP-Dev,usagvsvnibpas02,RG-USAGV-ADSAP-SAP-AS-IBP-CPI-AGENT-NP,FAST1-Thur-NonProd,usgovvirginia,Fast1-USAGV-SAP-Dev
+Sub-MoogGov-SAP-Dev,usagvsvnibpas,RG-USAGV-ADSAP-SAP-AS-IBP-NP,FAST1-Thur-NonProd,usgovvirginia,Fast1-USAGV-SAP-Dev
+Sub-MoogGov-SAP-Dev,agvdpoci01,RG-USAGV-ADSAP-SAP-AS-PROCESSORCHESTRATION-DEV,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvqpoci01,RG-USAGV-ADSAP-SAP-AS-PROCESSORCHESTRATION-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvnsaprt01,RG-USAGV-ADSAP-SAP-AS-ROUTER-NP,ADSAP-Prod,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvds4ci01,RG-USAGV-ADSAP-SAP-AS-S4-DEV,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvqs4as01,RG-USAGV-ADSAP-SAP-AS-S4-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvqs4as02,RG-USAGV-ADSAP-SAP-AS-S4-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvss4ci01,RG-USAGV-ADSAP-SAP-AS-S4-SB,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvts4ci01,RG-USAGV-ADSAP-SAP-AS-S4-TRN,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvnibpsdi01,RG-USAGV-ADSAP-SAP-AS-SDI-NP,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvnibpsdi02,RG-USAGV-ADSAP-SAP-AS-SDI-NP,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvnsltci01,RG-USAGV-ADSAP-SAP-AS-SLT-EHUB-NP,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvnwideas01,RG-USAGV-ADSAP-SAP-AS-WEBIDE-NP,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvndsci01,RG-USAGV-ADSAP-SAP-CI-DATASERVICES-EHUB-NP,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvnsmci01,RG-USAGV-ADSAP-SAP-CI-SOLUTIONMANAGER-NP,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,USAGVSVNDSDJMP1,RG-USAGV-ADSAP-SAP-DATASERVICES-NP,FAST1-Thur-NonProd,usgovvirginia,Fast1-USAGV-SAP-Dev
+Sub-MoogGov-SAP-Dev,agvdcodb01,RG-USAGV-ADSAP-SAP-DB-HANA-COMMON-DEV,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvncodb01,RG-USAGV-ADSAP-SAP-DB-HANA-COMMON-NP,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvqcodb01,RG-USAGV-ADSAP-SAP-DB-HANA-COMMON-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvqcodb02,RG-USAGV-ADSAP-SAP-DB-HANA-COMMON-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvscodb01,RG-USAGV-ADSAP-SAP-DB-HANA-COMMON-SB,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvtcodb01,RG-USAGV-ADSAP-SAP-DB-HANA-COMMON-TRN,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvnehdb01,RG-USAGV-ADSAP-SAP-DB-HANA-EHUB-NP,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvds4db01,RG-USAGV-ADSAP-SAP-DB-HANA-S4-DEV,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvqs4db01,RG-USAGV-ADSAP-SAP-DB-HANA-S4-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvqs4db02,RG-USAGV-ADSAP-SAP-DB-HANA-S4-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvss4db01,RG-USAGV-ADSAP-SAP-DB-HANA-S4-SB,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvts4db01,RG-USAGV-ADSAP-SAP-DB-HANA-S4-TRN,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvdgrcci01,RG-USAGV-ADSAP-SAP-GRC-DEV,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvqgrcci01,RG-USAGV-ADSAP-SAP-GRC-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvdgwci01,RG-USAGV-ADSAP-SAP-WEB-FIORI-DEV,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvqgwas01,RG-USAGV-ADSAP-SAP-WEB-FIORI-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvqgwas02,RG-USAGV-ADSAP-SAP-WEB-FIORI-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvsgwci01,RG-USAGV-ADSAP-SAP-WEB-FIORI-SB,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvtgwci01,RG-USAGV-ADSAP-SAP-WEB-FIORI-TRN,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvdwdci01,RG-USAGV-ADSAP-SAP-WEB-WEBDISPATCHER-DEV,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvqwdci01,RG-USAGV-ADSAP-SAP-WEB-WEBDISPATCHER-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvqwdci02,RG-USAGV-ADSAP-SAP-WEB-WEBDISPATCHER-QA,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,agvswdci01,RG-USAGV-ADSAP-SAP-WEB-WEBDISPATCHER-SB,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,usagvsvdsolm01,RG-USAGV-ADSAP-SOLUMINA-ACTIVEMQ-DEV,FAST1-Thur-NonProd,usgovvirginia,Fast1-USAGV-SAP-Dev
+Sub-MoogGov-SAP-Dev,usagvsjmx01,RG-USAGV-ADSAP-SOLUMINA-ACTIVEMQ-JMXTEST-SB,FAST1-Thur-NonProd,usgovvirginia,Fast1-USAGV-SAP-Dev
+Sub-MoogGov-SAP-Dev,usagvsvqsolm01,RG-USAGV-ADSAP-SOLUMINA-ACTIVEMQ-QA,FAST1-Thur-NonProd,usgovvirginia,Fast1-USAGV-SAP-Dev
+Sub-MoogGov-SAP-Dev,usagvsvssolm01,RG-USAGV-ADSAP-SOLUMINA-ACTIVEMQ-SB,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,usagvsvtsolm01,RG-USAGV-ADSAP-SOLUMINA-ACTIVEMQ-TRN,FAST1-Thur-NonProd,usgovvirginia,Fast1-USAGV-SAP-Dev
+Sub-MoogGov-SAP-Dev,usagvsvnsolba01,RG-USAGV-ADSAP-SOLUMINA-BASTION-NP,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,usagvsvssolba01,RG-USAGV-ADSAP-SOLUMINA-BASTION-SB,FAST1-Thur-NonProd,usgovvirginia,Fast1-USAGV-SAP-Dev
+Sub-MoogGov-SAP-Dev,usagvsvnsoldm01,RG-USAGV-ADSAP-SOLUMINA-DATAMOVER-NP,FAST1-Thur-NonProd,usgovvirginia,Fast1-USAGV-SAP-Dev
+Sub-MoogGov-SAP-Dev,usagvsvssolaw01,RG-USAGV-ADSAP-SOLUMINA-DEVOPS-AGENT-SB,ADSAP-NonProd,usgovvirginia,null
+Sub-MoogGov-SAP-Dev,usagvsvnmietl01,RG-USAGV-ADSAP-SOLUMINA-MI-ETL-NP,FAST1-Thur-NonProd,usgovvirginia,Fast1-USAGV-SAP-Dev
+Sub-MoogGov-AG-AOS-Prod,usagvpsvcca01,RG-USAGV-AOS-COMMAND-CENTER-ANALYTICS,SCCM,usgovvirginia,null
+Sub-MoogGov-Corp-Analytics-NonProd,2068ed68ec624fc7881500c5834f621b,DATABRICKS-RG-ADBSUSAGVMEDWDEV-TBUKVUBYUJNOY,None,usgovvirginia,null
+Sub-MoogGov-Corp-Analytics-NonProd,4446bbe9b28d4df3b6445573e538fa45,DATABRICKS-RG-ADBSUSAGVMEDWDEV-TBUKVUBYUJNOY,None,usgovvirginia,null
+Sub-MoogGov-Corp-Analytics-NonProd,a83ce59e9b314a5db17be0ec9eed23b1,DATABRICKS-RG-ADBSUSAGVMEDWDEV-TBUKVUBYUJNOY,None,usgovvirginia,null
+Sub-MoogGov-Corp-Analytics-NonProd,usagvnhycon01,RG-USAGV-ANALYTICS-APIMANAGER-HYBRIDCONNECTION-NP,SCCM,usgovvirginia,null
+Sub-MoogGov-Corp-Analytics-NonProd,usagvnpwrbi01,RG-USAGV-ANALYTICS-POWERBI-REPORT-SERVER-NP,SCCM,usgovvirginia,null
+Sub-MoogGov-Corp-Analytics-NonProd,usagvnpwrbi02,RG-USAGV-ANALYTICS-POWERBI-REPORT-SERVER-NP,SCCM,usgovvirginia,null
+Sub-MoogGov-Corp-Analytics-NonProd,usagvnint01,RG-USAGV-ANALYTICS-SYNAPSE-INTEGRATION-RUNTIME-NP,FAST2-Sun-Prod,usgovvirginia,Fast2-USAGV-Corp-Analytics-NonProd
+Sub-MoogGov-Corp-Analytics-NonProd,usagvnint02,RG-USAGV-ANALYTICS-SYNAPSE-INTEGRATION-RUNTIME-NP,FAST2-Sun-Prod,usgovvirginia,Fast2-USAGV-Corp-Analytics-NonProd
+Sub-MoogGov-Corp-Analytics-NonProd,usagvnint03,RG-USAGV-ANALYTICS-SYNAPSE-INTEGRATION-RUNTIME-NP,FAST2-Sun-Prod,usgovvirginia,Fast2-USAGV-Corp-Analytics-NonProd
+Sub-MoogGov-Corp-Analytics-NonProd,usagvnint04,RG-USAGV-ANALYTICS-SYNAPSE-INTEGRATION-RUNTIME-NP,FAST2-Sun-Prod,usgovvirginia,Fast2-USAGV-Corp-Analytics-NonProd
+Sub-MoogGov-EngineeringApplications-Prod,usagvptwcapp01,RG-USAGV-ENGAPPS-TEAMWORKCLOUD-APPLICATION,SLOW3-Sun-Prod,usgovvirginia,null
+Sub-MoogGov-EngineeringApplications-Prod,usagvptwcdb01,RG-USAGV-ENGAPPS-TEAMWORKCLOUD-DATABASE,SLOW3-Sun-Prod,usgovvirginia,null
+Sub-MoogGov-Core-Networking-New,usagvpcnpfw01,RG-USAGV-NETWORKING-CORE-FIREWALL-HUB,Appliance,usgovvirginia,null
+Sub-MoogGov-Core-Networking-New,usagvpcnpfw02,RG-USAGV-NETWORKING-CORE-FIREWALL-HUB,Appliance,usgovvirginia,null
+Sub-MoogGov-Core-Networking-New,usagvpcnvce01,RG-USAGV-NETWORKING-CORE-VCE-HUB,Appliance,usgovvirginia,null
+Sub-MoogGov-Core-Networking-New,usagvpcnvce02,RG-USAGV-NETWORKING-CORE-VCE-HUB,Appliance,usgovvirginia,null
+Sub-MoogGov-Core-Networking-New,usagvpcnvce03,RG-USAGV-NETWORKING-CORE-VCE-HUB,Appliance,usgovvirginia,null
+Sub-MoogGov-Core-Networking-New,usagtpcnpfw01,RG-USAGT-NETWORKING-CORE-FIREWALL-HUB,Appliance,usgovtexas,null
+Sub-MoogGov-Core-Networking-New,usagtpcnpfw02,RG-USAGT-NETWORKING-CORE-FIREWALL-HUB,Appliance,usgovtexas,null
+Sub-MoogGov-Core-Networking-New,usagtsvtest,RG-USAGT-NETWORKING-CORE-HUB-TEST,None,usgovtexas,null
+Sub-MoogGov-Core-Networking-New,usagtpcnvce01,RG-USAGT-NETWORKING-CORE-VCE-HUB,Appliance,usgovtexas,null
+Sub-MoogGov-Core-Networking-New,usagtpcnvce02,RG-USAGT-NETWORKING-CORE-VCE-HUB,Appliance,usgovtexas,null
+Sub-MoogGov-Core-Networking-New,usagtpcnvce03,RG-USAGT-NETWORKING-CORE-VCE-HUB,Appliance,usgovtexas,null
+Sub-MoogGov-Core-Networking-New,usagapcnpfw01,RG-USAGA-NETWORKING-CORE-FIREWALL-HUB,Appliance,usgovarizona,null
+Sub-MoogGov-Core-Networking-New,usagapcnpfw02,RG-USAGA-NETWORKING-CORE-FIREWALL-HUB,Appliance,usgovarizona,null
+Sub-MoogGov-Core-Networking-New,usagapcnvce01,RG-USAGA-NETWORKING-CORE-VCE-HUB,Appliance,usgovarizona,null
+Sub-MoogGov-Core-Networking-New,usagapcnvce02,RG-USAGA-NETWORKING-CORE-VCE-HUB,Appliance,usgovarizona,null
+Sub-MoogGov-Core-Networking-New,usagapcnvce03,RG-USAGA-NETWORKING-CORE-VCE-HUB,Appliance,usgovarizona,null
+Sub-MoogGov-EngineeringApplications-NonProd,usagvntwcapp01,RG-USAGV-ENGAPPS-TEAMWORKCLOUD-APPLICATION-NP,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-EngineeringApplications-NonProd
+Sub-MoogGov-EngineeringApplications-NonProd,usagvncamapp01,RG-USAGV-ENGAPPS-TEAMWORKCLOUD-CAMEO-NP,FAST2-Sun-Prod,usgovvirginia,Fast2-USAGV-EngineeringApplications-NonProd
+Sub-MoogGov-EngineeringApplications-NonProd,usagvncasdb01,RG-USAGV-ENGAPPS-TEAMWORKCLOUD-CASSANDRA-NP,FAST2-Sun-Prod,usgovvirginia,Fast2-USAGV-EngineeringApplications-NonProd
+Sub-MoogGov-EngineeringApplications-NonProd,usagvntwcdb01,RG-USAGV-ENGAPPS-TEAMWORKCLOUD-DATABASE-NP,SLOW3-Sun-Prod,usgovvirginia,Slow3-USAGV-EngineeringApplications-NonProd
+Sub-MoogGov-Corp-Analytics-Prod,usagvpedw01,RG-USAGV-ANALYTICS-EDW-01,SCCM,usgovvirginia,null
+Sub-MoogGov-Corp-Analytics-Prod,usagvpedw02,RG-USAGV-ANALYTICS-EDW-01,SCCM,usgovvirginia,null
+Sub-MoogGov-Corp-Analytics-Prod,usagvpedw03,RG-USAGV-ANALYTICS-EDW-03,SCCM,usgovvirginia,null
+Sub-MoogGov-Corp-Analytics-Prod,usagvpedw04,RG-USAGV-ANALYTICS-EDW-03,SCCM,usgovvirginia,null
+Sub-MoogGov-Corp-Analytics-Prod,usagvpedw05,RG-USAGV-ANALYTICS-EDW-05,SCCM,usgovvirginia,null
+Sub-MoogGov-Corp-Analytics-Prod,usagvpedw06,RG-USAGV-ANALYTICS-EDW-05,SCCM,usgovvirginia,null
+Sub-MoogGov-Corp-Analytics-Prod,usagvpibpmdw01,RG-USAGV-ANALYTICS-IBP-MEDW,SLOW1-Tue-Prod,usgovvirginia,Slow1-USAGV-Corp-Analytics-Prod
+Sub-MoogGov-Corp-Analytics-Prod,usagvppwrbi01,RG-USAGV-ANALYTICS-POWERBI-REPORT-SERVER,SCCM,usgovvirginia,null
+Sub-MoogGov-Corp-Analytics-Prod,usagvppwrbi02,RG-USAGV-ANALYTICS-POWERBI-REPORT-SERVER,SCCM,usgovvirginia,null
