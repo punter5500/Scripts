@@ -1,0 +1,1 @@
+az vm assess-patches --resource-group RG-GBAZ1-ADSAP-SOLUMINA-ACTIVEMQ-QA --name gbaz1svqsolm01 >lolm01.json
